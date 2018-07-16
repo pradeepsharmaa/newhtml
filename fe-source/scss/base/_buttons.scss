@@ -1,0 +1,61 @@
+/* add all the buttons and their states here
+ *************************************************************/
+
+.btn-default {
+    background: transparent;
+    color: $dark-gray;
+    border-color: $white;
+
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+        background: $white;
+        color: $dark-gray;
+        border-color: $white;
+    }
+}
+
+.btn-light {
+    background: $white;
+    color: $dark-gray;
+    border-color: $white;
+}
+
+.btn-secondary {
+    background: $light-gray;
+    color: $dark-gray;
+    border-color: $light-gray;
+
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+        background: $white;
+        color: $dark-gray;
+        border-color: $white;
+    }
+} 
+
+.btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
+    outline: none !important;
+    outline-offset: none !important;
+}
+.btn-primary {
+    background: $blue;
+    color: $white;
+    border-color: $blue;
+
+    &:hover,
+    &:focus,
+    &:active,
+    &.active {
+        background: $blue-hover;
+        color: $white;
+        border-color: $blue-hover;
+    }
+}
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .btn-default.active, .btn-default:active, .open>.dropdown-toggle.btn-default {
+    background: $blue-hover;
+    color: $white;
+}

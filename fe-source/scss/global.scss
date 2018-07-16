@@ -1,0 +1,27 @@
+/*
+ * DNT : IMPORT VARIABLES CSS FILES
+ -------------------------------------- */
+
+@import "variables/all";
+@import "utils/all";
+@import "vendor/bootstrap";
+
+
+/*
+ * GLOBAL SECTION START HERE
+ -------------------------------------- */
+
+@import "vendor/carousel";  
+
+
+/*
+ * DNT : IMPORT BASE CSS FILES
+ -------------------------------------- */
+
+@import "base/all";
+
+
+/*
+* GLOBAL COMPONENTS STYLES
+ -------------------------------------- */
+@import 'components/global-header';

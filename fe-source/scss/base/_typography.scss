@@ -1,0 +1,221 @@
+
+
+/*HEADINGS
+ *************************************************************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    @extend .semi-bold;
+}
+
+
+
+h1 {
+    line-height: 68px;
+    font-size: 50px;
+}
+
+h2 {
+    line-height: 38px;
+    font-size: 28px;
+}
+
+h3 {
+    line-height: 36px;
+    font-size: 26px;
+}
+
+h4 {
+    line-height: 28px;
+    font-size: 24px;
+}
+
+h5 {
+    line-height: 28px;
+    font-size: 23px;
+}
+
+h6 {
+    line-height: 22px;
+    font-size: 18px;
+}
+
+
+
+
+/* BODY COPY
+*************************************************************/
+
+.semi-bold{
+    font-weight:700;
+}
+.bold{
+    font-weight:800;
+}
+.regular{
+    font-weight:400;
+}
+.text-caps{
+    text-transform: uppercase;
+}
+.text-capitalize{
+    text-transform: capitalize;
+}
+.text-lowercase{
+    text-transform: lowercase;
+}
+
+a {
+    &,
+    &:hover,
+    &:active {
+        outline: 0;
+        .img-hover-effect {
+            -webkit-filter: brightness(.8);
+            filter: brightness(.8);
+            margin: 0;
+            border: 0;
+        }
+    }
+   
+    .img-hover-effect {
+        -webkit-filter: none;
+        filter: none;
+        transition: filter 150ms ease;
+    }
+
+    line-height: 18px;
+    color: $text-link;
+    font-size: 14.4px;
+    text: {
+        decoration: none; //transform: none;
+    }
+    transition: color 200ms ease;
+
+    &:hover{
+        color:$black;
+    }
+
+}
+
+.no-touch {
+    a {
+        &,
+        .cta-link {
+            &:hover,
+            &.hover,
+            &:focus {
+                color: $black;
+                text-decoration: none;
+            }
+            &:focus {
+                // override bootstrap here..
+            }
+            &.find-in-store:hover,
+            &.size-chart-toggle:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+// Base body copy styling
+html,
+body,
+p,
+.body-copy {
+    line-height: 19px;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    color: $black;
+}
+
+p,
+.body-copy,
+.body-copy-alt {
+    >a {
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+
+.underline {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+
+html,body{
+    font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+
+
+
+/* DESKTOP VIEW PORT
+*************************************************************/
+
+@include breakpoint(desktop) {
+    h2 {
+        line-height: 46px;
+        font-size: 40px;
+    }
+
+    h2 {
+        line-height: 21px;
+        font-size: 26px;
+    }
+
+    h3 {
+        line-height: 24px;
+        font-size: 24px;
+    }
+
+    h4 {
+        line-height: 26px;
+        font-size: 20px;
+    }
+
+    h5 {
+        line-height: 18px;
+        font-size: 20px;
+    }
+
+    h6 {
+        line-height: 16px;
+        font-size: 14px;
+    }
+
+    html,
+    body,
+    p,
+    .body-copy {
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+
+    a {
+        &,
+        &:hover,
+        &:focus,
+        &:active {
+            outline: 0;
+        }
+        &.dropdown-toggle:focus, &:focus{
+        outline: 0 dotted;
+        }
+    }
+}

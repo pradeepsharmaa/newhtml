@@ -1,0 +1,2473 @@
+[{
+	"id": "4",
+	"slug": "laravel.html",
+	"name": "Laravel",
+	"meta_keyword": "laravel, collections, example, script, code, isuue, tutorials, docs, problem, solutions, mysql, php ",
+	"meta_description": "we provide laravel example collections, php laravel lots of script code, laravel documentation examples, laravel 5 issue solve, laravel tutorial example",
+	"created_at": "2016-03-24 08:45:43",
+	"updated_at": "2016-03-24 08:45:43"
+}, {
+	"id": "5",
+	"slug": "laravel-5.html",
+	"name": "Laravel 5",
+	"meta_keyword": "laravel 5, collections, example, script, code, isuue, tutorials, docs, problem, solutions, mysql, php ",
+	"meta_description": "you can get laravel 5 example, script, demo collections",
+	"created_at": "2016-03-24 08:46:33",
+	"updated_at": "2016-03-24 08:46:33"
+}, {
+	"id": "6",
+	"slug": "laravel-52.html",
+	"name": "Laravel 5.2",
+	"meta_keyword": "laravel 5.2, collections, example, script, code, isuue, tutorials, docs, problem, solutions, mysql, php ",
+	"meta_description": "you can get laravel 5.2 example and tutorials example collections data",
+	"created_at": "2016-03-24 08:46:56",
+	"updated_at": "2016-03-24 08:47:25"
+}, {
+	"id": "8",
+	"slug": "pagination.html",
+	"name": "Pagination",
+	"meta_keyword": "php,pagination, collections, example, code, isuue, tutorials, docs, problem, stuff,demo",
+	"meta_description": "you can get php Pagination and laravel Pagination example collections data and tutorial example",
+	"created_at": "2016-03-24 08:49:45",
+	"updated_at": "2016-03-24 08:49:45"
+}, {
+	"id": "10",
+	"slug": "example.html",
+	"name": "Example",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 08:54:26",
+	"updated_at": "2016-03-24 08:54:26"
+}, {
+	"id": "11",
+	"slug": "javascript.html",
+	"name": "Javascript",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 09:18:58",
+	"updated_at": "2016-03-24 09:18:58"
+}, {
+	"id": "16",
+	"slug": "array.html",
+	"name": "Array",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 09:19:41",
+	"updated_at": "2016-03-24 09:19:41"
+}, {
+	"id": "17",
+	"slug": "particular.html",
+	"name": "Particular",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 09:20:05",
+	"updated_at": "2016-03-24 09:20:05"
+}, {
+	"id": "19",
+	"slug": "value.html",
+	"name": "Value",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 09:20:33",
+	"updated_at": "2016-03-24 09:20:33"
+}, {
+	"id": "20",
+	"slug": "clear.html",
+	"name": "Clear",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 09:23:25",
+	"updated_at": "2016-03-24 09:23:25"
+}, {
+	"id": "21",
+	"slug": "cache.html",
+	"name": "Cache",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 09:23:35",
+	"updated_at": "2016-03-24 09:23:35"
+}, {
+	"id": "23",
+	"slug": "artisan.html",
+	"name": "Artisan",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 09:23:59",
+	"updated_at": "2016-03-24 09:23:59"
+}, {
+	"id": "25",
+	"slug": "command.html",
+	"name": "Command",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 09:24:33",
+	"updated_at": "2016-03-24 09:24:33"
+}, {
+	"id": "26",
+	"slug": "application.html",
+	"name": "Application",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 09:24:50",
+	"updated_at": "2016-03-24 09:24:50"
+}, {
+	"id": "28",
+	"slug": "tracking.html",
+	"name": "Tracking",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 09:32:41",
+	"updated_at": "2016-03-24 09:32:41"
+}, {
+	"id": "31",
+	"slug": "angularjs.html",
+	"name": "AngularJS",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 09:42:32",
+	"updated_at": "2016-03-24 09:42:32"
+}, {
+	"id": "33",
+	"slug": "search.html",
+	"name": "Search",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 09:42:49",
+	"updated_at": "2016-03-24 09:42:49"
+}, {
+	"id": "41",
+	"slug": "chat.html",
+	"name": "Chat",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 10:50:13",
+	"updated_at": "2016-03-24 10:50:13"
+}, {
+	"id": "42",
+	"slug": "message.html",
+	"name": "Message",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 10:50:29",
+	"updated_at": "2016-03-24 10:50:29"
+}, {
+	"id": "49",
+	"slug": "scratch.html",
+	"name": "Scratch",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 10:51:54",
+	"updated_at": "2016-03-24 10:51:54"
+}, {
+	"id": "51",
+	"slug": "image-upload.html",
+	"name": "Image Upload",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 10:55:12",
+	"updated_at": "2016-03-24 10:55:12"
+}, {
+	"id": "52",
+	"slug": "packages.html",
+	"name": "Packages",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 10:58:27",
+	"updated_at": "2016-03-24 10:58:27"
+}, {
+	"id": "57",
+	"slug": "maatwebsite.html",
+	"name": "maatwebsite",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 10:59:26",
+	"updated_at": "2016-03-24 10:59:26"
+}, {
+	"id": "58",
+	"slug": "laravel-4.html",
+	"name": "Laravel 4",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 11:00:01",
+	"updated_at": "2016-03-24 11:00:01"
+}, {
+	"id": "59",
+	"slug": "middleware.html",
+	"name": "Middleware",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 11:02:47",
+	"updated_at": "2016-03-24 11:02:47"
+}, {
+	"id": "64",
+	"slug": "download.html",
+	"name": "Download",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 15:11:56",
+	"updated_at": "2016-03-24 15:11:56"
+}, {
+	"id": "67",
+	"slug": "image.html",
+	"name": "Image",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 15:12:16",
+	"updated_at": "2016-03-24 15:12:16"
+}, {
+	"id": "68",
+	"slug": "manual.html",
+	"name": "Manual",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 15:13:52",
+	"updated_at": "2016-03-24 15:13:52"
+}, {
+	"id": "70",
+	"slug": "ajax.html",
+	"name": "Ajax",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 15:15:59",
+	"updated_at": "2016-03-24 15:15:59"
+}, {
+	"id": "76",
+	"slug": "hard.html",
+	"name": "Hard",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 15:18:20",
+	"updated_at": "2016-03-24 15:18:20"
+}, {
+	"id": "77",
+	"slug": "branch.html",
+	"name": "Branch",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 15:18:36",
+	"updated_at": "2016-03-24 15:18:36"
+}, {
+	"id": "78",
+	"slug": "master.html",
+	"name": "Master",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 15:18:42",
+	"updated_at": "2016-03-24 15:18:42"
+}, {
+	"id": "82",
+	"slug": "last.html",
+	"name": "Last",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 15:22:06",
+	"updated_at": "2016-03-24 15:22:06"
+}, {
+	"id": "83",
+	"slug": "local.html",
+	"name": "Local",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 15:22:12",
+	"updated_at": "2016-03-24 15:22:12"
+}, {
+	"id": "84",
+	"slug": "add.html",
+	"name": "Add",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 15:22:27",
+	"updated_at": "2016-03-24 15:22:27"
+}, {
+	"id": "87",
+	"slug": "data.html",
+	"name": "Data",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 15:25:56",
+	"updated_at": "2016-03-24 15:25:56"
+}, {
+	"id": "91",
+	"slug": "date-sub.html",
+	"name": "DATE_SUB",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 15:26:29",
+	"updated_at": "2016-03-24 15:26:29"
+}, {
+	"id": "92",
+	"slug": "interval.html",
+	"name": "INTERVAL",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 15:26:38",
+	"updated_at": "2016-03-24 15:26:38"
+}, {
+	"id": "94",
+	"slug": "chart.html",
+	"name": "Chart",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 15:28:53",
+	"updated_at": "2016-03-24 15:28:53"
+}, {
+	"id": "95",
+	"slug": "highchart.html",
+	"name": "Highchart",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 15:29:02",
+	"updated_at": "2016-03-24 15:29:02"
+}, {
+	"id": "103",
+	"slug": "mail.html",
+	"name": "Mail",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 15:34:34",
+	"updated_at": "2016-03-24 15:34:34"
+}, {
+	"id": "110",
+	"slug": "character.html",
+	"name": "Character",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 15:43:16",
+	"updated_at": "2016-03-24 15:43:16"
+}, {
+	"id": "115",
+	"slug": "special.html",
+	"name": "Special",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 15:46:09",
+	"updated_at": "2016-03-24 15:46:09"
+}, {
+	"id": "117",
+	"slug": "page.html",
+	"name": "Page",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 15:49:41",
+	"updated_at": "2016-03-24 15:49:41"
+}, {
+	"id": "119",
+	"slug": "marker.html",
+	"name": "marker",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 15:51:31",
+	"updated_at": "2016-03-24 15:51:31"
+}, {
+	"id": "120",
+	"slug": "location.html",
+	"name": "Location",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 15:51:40",
+	"updated_at": "2016-03-24 15:51:40"
+}, {
+	"id": "121",
+	"slug": "google-map.html",
+	"name": "Google Map",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-24 15:51:56",
+	"updated_at": "2016-03-24 15:51:56"
+}, {
+	"id": "124",
+	"slug": "class.html",
+	"name": "Class",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-25 05:11:37",
+	"updated_at": "2016-03-25 05:11:37"
+}, {
+	"id": "128",
+	"slug": "animate.html",
+	"name": "Animate",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-26 05:57:41",
+	"updated_at": "2016-03-26 05:57:41"
+}, {
+	"id": "135",
+	"slug": "backup.html",
+	"name": "Backup",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-28 06:54:14",
+	"updated_at": "2016-03-28 06:54:14"
+}, {
+	"id": "136",
+	"slug": "package.html",
+	"name": "Package",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-28 06:54:21",
+	"updated_at": "2016-03-28 06:54:21"
+}, {
+	"id": "141",
+	"slug": "append.html",
+	"name": "Append",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-30 05:32:53",
+	"updated_at": "2016-03-30 05:32:53"
+}, {
+	"id": "143",
+	"slug": "paging.html",
+	"name": "Paging",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-30 05:33:17",
+	"updated_at": "2016-03-30 05:33:17"
+}, {
+	"id": "144",
+	"slug": "automatically.html",
+	"name": "Automatically",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-30 05:33:29",
+	"updated_at": "2016-03-30 05:33:29"
+}, {
+	"id": "148",
+	"slug": "allow.html",
+	"name": "Allow",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-30 20:04:53",
+	"updated_at": "2016-03-30 20:04:53"
+}, {
+	"id": "149",
+	"slug": "access.html",
+	"name": "Access",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-30 20:05:04",
+	"updated_at": "2016-03-30 20:05:04"
+}, {
+	"id": "155",
+	"slug": "api.html",
+	"name": "API",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-31 06:57:45",
+	"updated_at": "2016-03-31 06:57:45"
+}, {
+	"id": "156",
+	"slug": "auth.html",
+	"name": "Auth",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-31 06:58:08",
+	"updated_at": "2016-03-31 06:58:08"
+}, {
+	"id": "157",
+	"slug": "authentication.html",
+	"name": "Authentication",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-31 06:58:17",
+	"updated_at": "2016-03-31 06:58:17"
+}, {
+	"id": "159",
+	"slug": "foreach.html",
+	"name": "Foreach",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-31 19:24:48",
+	"updated_at": "2016-03-31 19:24:48"
+}, {
+	"id": "161",
+	"slug": "each.html",
+	"name": "Each",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-03-31 19:25:08",
+	"updated_at": "2016-03-31 19:25:08"
+}, {
+	"id": "162",
+	"slug": "user-agent.html",
+	"name": "User Agent",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-05 05:12:21",
+	"updated_at": "2016-04-05 05:12:21"
+}, {
+	"id": "164",
+	"slug": "parse.html",
+	"name": "parse",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-05 05:28:39",
+	"updated_at": "2016-04-05 05:28:39"
+}, {
+	"id": "167",
+	"slug": "update.html",
+	"name": "Update",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-05 08:41:37",
+	"updated_at": "2016-04-05 08:41:37"
+}, {
+	"id": "169",
+	"slug": "after.html",
+	"name": "After",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-05 08:42:06",
+	"updated_at": "2016-04-05 08:42:06"
+}, {
+	"id": "170",
+	"slug": "lowercase.html",
+	"name": "lowercase",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-05 12:41:58",
+	"updated_at": "2016-04-05 12:41:58"
+}, {
+	"id": "171",
+	"slug": "array-map.html",
+	"name": "array_map",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-05 12:42:06",
+	"updated_at": "2016-04-05 12:42:06"
+}, {
+	"id": "172",
+	"slug": "uppercase.html",
+	"name": "uppercase",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-05 12:42:16",
+	"updated_at": "2016-04-05 12:42:16"
+}, {
+	"id": "176",
+	"slug": "roumen-sitemap.html",
+	"name": "roumen\/sitemap",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-06 09:15:03",
+	"updated_at": "2016-04-06 09:15:03"
+}, {
+	"id": "177",
+	"slug": "sitemap.html",
+	"name": "Sitemap",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-06 09:15:10",
+	"updated_at": "2016-04-06 09:15:10"
+}, {
+	"id": "178",
+	"slug": "generate.html",
+	"name": "Generate",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-06 09:15:22",
+	"updated_at": "2016-04-06 09:15:22"
+}, {
+	"id": "179",
+	"slug": "laravel-cashier.html",
+	"name": "Laravel Cashier",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-06 15:41:02",
+	"updated_at": "2016-04-06 15:41:02"
+}, {
+	"id": "180",
+	"slug": "namespace.html",
+	"name": "Namespace",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-06 15:41:12",
+	"updated_at": "2016-04-06 15:41:12"
+}, {
+	"id": "183",
+	"slug": "migration.html",
+	"name": "Migration",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-06 15:41:39",
+	"updated_at": "2016-04-06 15:41:39"
+}, {
+	"id": "184",
+	"slug": "array-change-key-case.html",
+	"name": "array_change_key_case",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-06 15:53:55",
+	"updated_at": "2016-04-06 15:53:55"
+}, {
+	"id": "185",
+	"slug": "case-lower.html",
+	"name": "CASE_LOWER",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-06 15:54:04",
+	"updated_at": "2016-04-06 15:54:04"
+}, {
+	"id": "187",
+	"slug": "terminal.html",
+	"name": "Terminal",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-06 18:01:55",
+	"updated_at": "2016-04-06 18:01:55"
+}, {
+	"id": "192",
+	"slug": "client-side-validation.html",
+	"name": "Client side validation",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-07 18:52:07",
+	"updated_at": "2016-04-07 18:52:07"
+}, {
+	"id": "193",
+	"slug": "parsley.html",
+	"name": "Parsley",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-07 18:52:25",
+	"updated_at": "2016-04-07 18:52:25"
+}, {
+	"id": "194",
+	"slug": "parsleyjs.html",
+	"name": "Parsleyjs",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-07 18:52:45",
+	"updated_at": "2016-04-07 18:52:45"
+}, {
+	"id": "195",
+	"slug": "library.html",
+	"name": "Library",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-07 18:52:55",
+	"updated_at": "2016-04-07 18:52:55"
+}, {
+	"id": "196",
+	"slug": "form-validation.html",
+	"name": "Form Validation",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-07 18:53:17",
+	"updated_at": "2016-04-07 18:53:17"
+}, {
+	"id": "197",
+	"slug": "frontside-validation.html",
+	"name": "Frontside Validation",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-07 18:53:33",
+	"updated_at": "2016-04-07 18:53:33"
+}, {
+	"id": "199",
+	"slug": "array-combine.html",
+	"name": "array_combine",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-08 06:08:06",
+	"updated_at": "2016-04-08 06:08:06"
+}, {
+	"id": "200",
+	"slug": "phpmyadmin.html",
+	"name": "phpmyadmin",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-08 09:42:07",
+	"updated_at": "2016-04-08 09:42:07"
+}, {
+	"id": "203",
+	"slug": "configuration.html",
+	"name": "Configuration",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-08 09:42:45",
+	"updated_at": "2016-04-08 09:42:45"
+}, {
+	"id": "204",
+	"slug": "failed.html",
+	"name": "Failed",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-08 09:42:57",
+	"updated_at": "2016-04-08 09:42:57"
+}, {
+	"id": "207",
+	"slug": "facade.html",
+	"name": "Facade",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-08 19:01:06",
+	"updated_at": "2016-04-08 19:01:06"
+}, {
+	"id": "209",
+	"slug": "apache.html",
+	"name": "Apache",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-08 19:20:46",
+	"updated_at": "2016-04-08 19:20:46"
+}, {
+	"id": "214",
+	"slug": "enable.html",
+	"name": "Enable",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-08 19:21:38",
+	"updated_at": "2016-04-08 19:21:38"
+}, {
+	"id": "215",
+	"slug": "localization.html",
+	"name": "Localization",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-09 11:54:27",
+	"updated_at": "2016-04-09 11:54:27"
+}, {
+	"id": "216",
+	"slug": "tutorial.html",
+	"name": "Tutorial",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-09 11:54:36",
+	"updated_at": "2016-04-09 11:54:36"
+}, {
+	"id": "217",
+	"slug": "trans-helper.html",
+	"name": "Trans Helper",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-09 11:54:48",
+	"updated_at": "2016-04-09 11:54:48"
+}, {
+	"id": "218",
+	"slug": "language.html",
+	"name": "Language",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-09 11:55:00",
+	"updated_at": "2016-04-09 11:55:00"
+}, {
+	"id": "222",
+	"slug": "post-ajax.html",
+	"name": "POST Ajax",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-10 07:03:20",
+	"updated_at": "2016-04-10 07:03:20"
+}, {
+	"id": "223",
+	"slug": "get-ajax.html",
+	"name": "GET Ajax",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-10 07:03:26",
+	"updated_at": "2016-04-10 07:03:26"
+}, {
+	"id": "226",
+	"slug": "enablequerylog.html",
+	"name": "enableQueryLog",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-10 16:41:08",
+	"updated_at": "2016-04-10 16:41:08"
+}, {
+	"id": "233",
+	"slug": "base-url.html",
+	"name": "Base URL",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-11 07:35:30",
+	"updated_at": "2016-04-11 07:35:30"
+}, {
+	"id": "234",
+	"slug": "homepage.html",
+	"name": "Homepage",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-11 07:35:44",
+	"updated_at": "2016-04-11 07:35:44"
+}, {
+	"id": "237",
+	"slug": "payment-gateway.html",
+	"name": "Payment Gateway",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-11 19:49:42",
+	"updated_at": "2016-04-11 19:49:42"
+}, {
+	"id": "238",
+	"slug": "strip-tags.html",
+	"name": "Strip Tags",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-12 06:24:01",
+	"updated_at": "2016-04-12 06:24:01"
+}, {
+	"id": "239",
+	"slug": "loading.html",
+	"name": "Loading",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-12 10:44:44",
+	"updated_at": "2016-04-12 10:44:44"
+}, {
+	"id": "240",
+	"slug": "animation.html",
+	"name": "Animation",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-12 10:44:59",
+	"updated_at": "2016-04-12 10:44:59"
+}, {
+	"id": "241",
+	"slug": "ajaxstart.html",
+	"name": "ajaxStart",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-12 10:45:13",
+	"updated_at": "2016-04-12 10:45:13"
+}, {
+	"id": "242",
+	"slug": "ajaxcomplete.html",
+	"name": "ajaxComplete",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-12 10:45:21",
+	"updated_at": "2016-04-12 10:45:21"
+}, {
+	"id": "243",
+	"slug": "upgrade.html",
+	"name": "Upgrade",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-12 13:58:27",
+	"updated_at": "2016-04-12 13:58:27"
+}, {
+	"id": "245",
+	"slug": "installation.html",
+	"name": "Installation",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-12 13:59:09",
+	"updated_at": "2016-04-12 13:59:09"
+}, {
+	"id": "250",
+	"slug": "capitalize.html",
+	"name": "Capitalize",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-13 05:16:05",
+	"updated_at": "2016-04-13 05:16:05"
+}, {
+	"id": "254",
+	"slug": "email.html",
+	"name": "Email",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-13 05:32:55",
+	"updated_at": "2016-04-13 05:32:55"
+}, {
+	"id": "259",
+	"slug": "repository-pattern.html",
+	"name": "Repository Pattern",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-13 18:19:48",
+	"updated_at": "2016-04-13 18:19:48"
+}, {
+	"id": "261",
+	"slug": "interface.html",
+	"name": "Interface",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-13 18:20:14",
+	"updated_at": "2016-04-13 18:20:14"
+}, {
+	"id": "263",
+	"slug": "interfaces.html",
+	"name": "Interfaces",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-13 18:20:47",
+	"updated_at": "2016-04-13 18:20:47"
+}, {
+	"id": "264",
+	"slug": "attr.html",
+	"name": "Attr",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-14 06:11:38",
+	"updated_at": "2016-04-14 06:11:38"
+}, {
+	"id": "265",
+	"slug": "attribute.html",
+	"name": "Attribute",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-14 06:11:52",
+	"updated_at": "2016-04-14 06:11:52"
+}, {
+	"id": "267",
+	"slug": "characters.html",
+	"name": "characters",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-14 10:56:02",
+	"updated_at": "2016-04-14 10:56:02"
+}, {
+	"id": "268",
+	"slug": "android-home.html",
+	"name": "ANDROID_HOME",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-14 19:21:40",
+	"updated_at": "2016-04-14 19:21:40"
+}, {
+	"id": "270",
+	"slug": "variable.html",
+	"name": "Variable",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-14 19:21:58",
+	"updated_at": "2016-04-14 19:21:58"
+}, {
+	"id": "271",
+	"slug": "cordova.html",
+	"name": "Cordova",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-14 19:22:10",
+	"updated_at": "2016-04-14 19:22:10"
+}, {
+	"id": "273",
+	"slug": "path.html",
+	"name": "Path",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-14 19:22:32",
+	"updated_at": "2016-04-14 19:22:32"
+}, {
+	"id": "274",
+	"slug": "facebook-api.html",
+	"name": "Facebook API",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-15 09:30:05",
+	"updated_at": "2016-04-15 09:30:05"
+}, {
+	"id": "275",
+	"slug": "oauth.html",
+	"name": "oauth",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-15 09:30:54",
+	"updated_at": "2016-04-15 09:30:54"
+}, {
+	"id": "277",
+	"slug": "socialite.html",
+	"name": "Socialite",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-15 09:31:33",
+	"updated_at": "2016-04-15 09:31:33"
+}, {
+	"id": "278",
+	"slug": "mediafre-api.html",
+	"name": "Mediaf\u0131re API",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-15 18:58:37",
+	"updated_at": "2016-04-15 18:58:37"
+}, {
+	"id": "279",
+	"slug": "google-api.html",
+	"name": "Google API",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-16 09:12:44",
+	"updated_at": "2016-04-16 09:12:44"
+}, {
+	"id": "280",
+	"slug": "google-oauth.html",
+	"name": "Google OAuth",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-16 09:12:52",
+	"updated_at": "2016-04-16 09:12:52"
+}, {
+	"id": "285",
+	"slug": "global-variable.html",
+	"name": "Global Variable",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-17 07:46:32",
+	"updated_at": "2016-04-17 07:46:32"
+}, {
+	"id": "286",
+	"slug": "filter-var.html",
+	"name": "filter_var",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-18 11:42:33",
+	"updated_at": "2016-04-18 11:42:33"
+}, {
+	"id": "287",
+	"slug": "filter-validate-url.html",
+	"name": "FILTER_VALIDATE_URL",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-18 11:42:41",
+	"updated_at": "2016-04-18 11:42:41"
+}, {
+	"id": "288",
+	"slug": "twitter-api.html",
+	"name": "Twitter API",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-18 18:38:07",
+	"updated_at": "2016-04-18 18:38:07"
+}, {
+	"id": "289",
+	"slug": "twitter-oauth.html",
+	"name": "Twitter OAuth",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-18 18:38:35",
+	"updated_at": "2016-04-18 18:38:35"
+}, {
+	"id": "290",
+	"slug": "fadein.html",
+	"name": "FadeIn",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-20 06:04:57",
+	"updated_at": "2016-04-20 06:04:57"
+}, {
+	"id": "291",
+	"slug": "fadeout.html",
+	"name": "FadeOut",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-20 06:05:04",
+	"updated_at": "2016-04-20 06:05:04"
+}, {
+	"id": "293",
+	"slug": "schema.html",
+	"name": "Schema",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-20 09:30:36",
+	"updated_at": "2016-04-20 09:30:36"
+}, {
+	"id": "294",
+	"slug": "hastable.html",
+	"name": "hasTable",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-20 09:30:45",
+	"updated_at": "2016-04-20 09:30:45"
+}, {
+	"id": "296",
+	"slug": "xampp.html",
+	"name": "Xampp",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-20 17:48:07",
+	"updated_at": "2016-04-20 17:48:07"
+}, {
+	"id": "297",
+	"slug": "mac.html",
+	"name": "mac",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-20 17:48:15",
+	"updated_at": "2016-04-20 17:48:15"
+}, {
+	"id": "299",
+	"slug": "php-ini-loaded-file.html",
+	"name": "php_ini_loaded_file",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-20 17:48:44",
+	"updated_at": "2016-04-20 17:48:44"
+}, {
+	"id": "300",
+	"slug": "upload-max-filesize.html",
+	"name": "upload_max_filesize",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-20 18:10:49",
+	"updated_at": "2016-04-20 18:10:49"
+}, {
+	"id": "301",
+	"slug": "max-file-uploads.html",
+	"name": "max_file_uploads",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-20 18:10:57",
+	"updated_at": "2016-04-20 18:10:57"
+}, {
+	"id": "302",
+	"slug": "apache2.html",
+	"name": "apache2",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-20 18:11:09",
+	"updated_at": "2016-04-20 18:11:09"
+}, {
+	"id": "303",
+	"slug": "file-upload.html",
+	"name": "File Upload",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-21 05:39:28",
+	"updated_at": "2016-04-21 05:39:28"
+}, {
+	"id": "304",
+	"slug": "validation.html",
+	"name": "Validation",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-21 05:39:46",
+	"updated_at": "2016-04-21 05:39:46"
+}, {
+	"id": "305",
+	"slug": "public-path.html",
+	"name": "public_path",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-21 05:39:53",
+	"updated_at": "2016-04-21 05:39:53"
+}, {
+	"id": "306",
+	"slug": "chartjs.html",
+	"name": "Chart.js",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-22 06:13:55",
+	"updated_at": "2016-04-22 06:13:55"
+}, {
+	"id": "308",
+	"slug": "bplist-parser.html",
+	"name": "bplist-parser",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-23 05:25:59",
+	"updated_at": "2016-04-23 05:25:59"
+}, {
+	"id": "309",
+	"slug": "phonegap.html",
+	"name": "Phonegap",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-23 05:26:30",
+	"updated_at": "2016-04-23 05:26:30"
+}, {
+	"id": "311",
+	"slug": "mailgun-api.html",
+	"name": "Mailgun API",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-23 14:52:08",
+	"updated_at": "2016-04-23 14:52:08"
+}, {
+	"id": "314",
+	"slug": "gmail.html",
+	"name": "Gmail",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-23 14:53:00",
+	"updated_at": "2016-04-23 14:53:00"
+}, {
+	"id": "315",
+	"slug": "php-artisan-serve.html",
+	"name": "php artisan serve",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-24 08:15:03",
+	"updated_at": "2016-04-24 08:15:03"
+}, {
+	"id": "317",
+	"slug": "massassignmentexception.html",
+	"name": "MassAssignmentException",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-25 05:37:18",
+	"updated_at": "2016-04-25 05:37:18"
+}, {
+	"id": "318",
+	"slug": "thumbnails.html",
+	"name": "Thumbnails",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-26 05:41:52",
+	"updated_at": "2016-04-26 05:41:52"
+}, {
+	"id": "319",
+	"slug": "intervention-image.html",
+	"name": "intervention\/image",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-26 05:42:00",
+	"updated_at": "2016-04-26 05:42:00"
+}, {
+	"id": "320",
+	"slug": "resize-image.html",
+	"name": "Resize Image",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-26 05:42:12",
+	"updated_at": "2016-04-26 05:42:12"
+}, {
+	"id": "323",
+	"slug": "bootstrap.html",
+	"name": "Twitter Bootstrap",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-26 19:01:14",
+	"updated_at": "2016-10-15 07:44:01"
+}, {
+	"id": "324",
+	"slug": "modal.html",
+	"name": "Modal",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-27 06:58:46",
+	"updated_at": "2016-04-27 06:58:46"
+}, {
+	"id": "325",
+	"slug": "dialog-box.html",
+	"name": "Dialog box",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-27 06:59:02",
+	"updated_at": "2016-04-27 06:59:02"
+}, {
+	"id": "327",
+	"slug": "collapse.html",
+	"name": "Collapse",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-27 15:03:18",
+	"updated_at": "2016-04-27 15:03:18"
+}, {
+	"id": "334",
+	"slug": "ppa.html",
+	"name": "ppa",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-29 06:05:59",
+	"updated_at": "2016-04-29 06:05:59"
+}, {
+	"id": "337",
+	"slug": "laravel-eloquent.html",
+	"name": "Laravel Eloquent",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-30 06:32:35",
+	"updated_at": "2016-04-30 06:32:35"
+}, {
+	"id": "338",
+	"slug": "laravel-builder.html",
+	"name": "Laravel Builder",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-30 06:32:52",
+	"updated_at": "2016-04-30 06:32:52"
+}, {
+	"id": "339",
+	"slug": "mysql-concat.html",
+	"name": "Mysql Concat",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-04-30 08:27:29",
+	"updated_at": "2016-04-30 08:27:29"
+}, {
+	"id": "340",
+	"slug": "multi-auth.html",
+	"name": "Multi Auth",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-01 08:36:34",
+	"updated_at": "2016-05-01 08:36:34"
+}, {
+	"id": "342",
+	"slug": "db-statement.html",
+	"name": "DB Statement",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-02 04:49:14",
+	"updated_at": "2016-05-02 04:49:14"
+}, {
+	"id": "343",
+	"slug": "paypal-integration.html",
+	"name": "Paypal Integration",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-02 16:25:14",
+	"updated_at": "2016-05-02 16:25:14"
+}, {
+	"id": "344",
+	"slug": "current-page-.html",
+	"name": "Current Page ",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-02 17:47:43",
+	"updated_at": "2016-05-02 17:47:43"
+}, {
+	"id": "346",
+	"slug": "datetimepicker.html",
+	"name": "Datetimepicker",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-03 05:58:47",
+	"updated_at": "2016-05-03 05:58:47"
+}, {
+	"id": "347",
+	"slug": "preg-match.html",
+	"name": "preg_match",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-03 15:18:45",
+	"updated_at": "2016-05-03 15:18:45"
+}, {
+	"id": "349",
+	"slug": "hascolumn.html",
+	"name": "hasColumn",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-04 05:37:39",
+	"updated_at": "2016-05-04 05:37:39"
+}, {
+	"id": "351",
+	"slug": "rand.html",
+	"name": "RAND()",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-04 11:37:08",
+	"updated_at": "2016-05-04 11:37:08"
+}, {
+	"id": "352",
+	"slug": "dbraw.html",
+	"name": "DB::raw()",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-04 11:37:23",
+	"updated_at": "2016-05-04 11:37:23"
+}, {
+	"id": "354",
+	"slug": "key-constraint.html",
+	"name": "Key Constraint",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-04 16:31:14",
+	"updated_at": "2016-05-04 16:31:14"
+}, {
+	"id": "355",
+	"slug": "php-artisan.html",
+	"name": "PHP artisan",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-04 18:58:50",
+	"updated_at": "2016-05-04 18:58:50"
+}, {
+	"id": "358",
+	"slug": "captcha-code.html",
+	"name": "Captcha code",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-05 09:43:34",
+	"updated_at": "2016-05-05 09:43:34"
+}, {
+	"id": "359",
+	"slug": "botdetect-captcha.html",
+	"name": "Botdetect Captcha",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-05 09:44:09",
+	"updated_at": "2016-05-05 09:44:09"
+}, {
+	"id": "361",
+	"slug": "date-format.html",
+	"name": "Date Format",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-06 05:55:55",
+	"updated_at": "2016-05-06 05:55:55"
+}, {
+	"id": "362",
+	"slug": "datepicker.html",
+	"name": "Datepicker",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-06 05:56:25",
+	"updated_at": "2016-05-06 05:56:25"
+}, {
+	"id": "364",
+	"slug": "jquery-modal.html",
+	"name": "Jquery Modal",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-07 05:42:15",
+	"updated_at": "2016-05-07 05:42:15"
+}, {
+	"id": "365",
+	"slug": "jquery-dialog-box.html",
+	"name": "Jquery Dialog Box",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-07 05:42:26",
+	"updated_at": "2016-05-07 05:42:26"
+}, {
+	"id": "367",
+	"slug": "ajax-request.html",
+	"name": "Ajax Request",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-08 07:18:14",
+	"updated_at": "2016-05-08 07:18:14"
+}, {
+	"id": "368",
+	"slug": "database.html",
+	"name": "Database",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-08 11:55:48",
+	"updated_at": "2016-05-08 11:55:48"
+}, {
+	"id": "369",
+	"slug": "away.html",
+	"name": "away()",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-09 14:33:42",
+	"updated_at": "2016-05-09 14:33:42"
+}, {
+	"id": "375",
+	"slug": "thomaswelton-laravel-gravatar.html",
+	"name": "thomaswelton\/laravel-gravatar",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-11 13:45:52",
+	"updated_at": "2016-05-11 13:45:52"
+}, {
+	"id": "376",
+	"slug": "gravatar.html",
+	"name": "gravatar",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-11 13:46:02",
+	"updated_at": "2016-05-11 13:46:02"
+}, {
+	"id": "377",
+	"slug": "ionic-framework.html",
+	"name": "Ionic framework",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-12 09:30:33",
+	"updated_at": "2016-05-12 09:30:33"
+}, {
+	"id": "378",
+	"slug": "404-error-page.html",
+	"name": "404 error page",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-12 18:07:43",
+	"updated_at": "2016-05-12 18:07:43"
+}, {
+	"id": "379",
+	"slug": "500-error-page.html",
+	"name": "500 error page",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-12 18:07:52",
+	"updated_at": "2016-05-12 18:07:52"
+}, {
+	"id": "381",
+	"slug": "word-wrap.html",
+	"name": "word-wrap",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-13 03:46:25",
+	"updated_at": "2016-05-13 03:46:25"
+}, {
+	"id": "382",
+	"slug": "typeahead-js.html",
+	"name": "Typeahead JS",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-14 04:57:20",
+	"updated_at": "2016-05-14 04:57:20"
+}, {
+	"id": "383",
+	"slug": "google-recaptcha-code.html",
+	"name": "google recaptcha code",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-16 05:34:51",
+	"updated_at": "2016-05-16 05:34:51"
+}, {
+	"id": "384",
+	"slug": "no-captcha.html",
+	"name": "no-captcha",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-16 05:35:02",
+	"updated_at": "2016-05-16 05:35:02"
+}, {
+	"id": "385",
+	"slug": "ip-address.html",
+	"name": "Ip Address",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-17 05:32:16",
+	"updated_at": "2016-05-17 05:32:16"
+}, {
+	"id": "386",
+	"slug": "barcode.html",
+	"name": "Barcode",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-17 10:21:27",
+	"updated_at": "2016-05-17 10:21:27"
+}, {
+	"id": "387",
+	"slug": "milon-barcode.html",
+	"name": "milon\/barcode",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-17 10:21:37",
+	"updated_at": "2016-05-17 10:21:37"
+}, {
+	"id": "390",
+	"slug": "select-box-search.html",
+	"name": "select box search",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-18 06:27:32",
+	"updated_at": "2016-05-18 06:27:32"
+}, {
+	"id": "392",
+	"slug": "progress-bar.html",
+	"name": "Progress Bar",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-19 09:30:20",
+	"updated_at": "2016-05-19 09:30:20"
+}, {
+	"id": "393",
+	"slug": "percentage.html",
+	"name": "Percentage",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-19 09:30:35",
+	"updated_at": "2016-05-19 09:30:35"
+}, {
+	"id": "394",
+	"slug": "league-flysystem-dropbox.html",
+	"name": "league\/flysystem-dropbox",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-20 03:57:20",
+	"updated_at": "2016-05-20 03:57:20"
+}, {
+	"id": "395",
+	"slug": "dropbox-api.html",
+	"name": "Dropbox API",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-20 03:57:36",
+	"updated_at": "2016-05-20 03:57:36"
+}, {
+	"id": "396",
+	"slug": "str-replace.html",
+	"name": "str_replace",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-20 10:36:49",
+	"updated_at": "2016-05-20 10:36:49"
+}, {
+	"id": "397",
+	"slug": "whitespace.html",
+	"name": "whitespace",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-20 10:36:57",
+	"updated_at": "2016-05-20 10:36:57"
+}, {
+	"id": "398",
+	"slug": "artisan-command.html",
+	"name": "Artisan Command",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-23 15:52:32",
+	"updated_at": "2016-05-23 15:52:32"
+}, {
+	"id": "399",
+	"slug": "custom-command.html",
+	"name": "Custom Command",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-23 15:52:43",
+	"updated_at": "2016-05-23 15:52:43"
+}, {
+	"id": "401",
+	"slug": "tagsinputjs.html",
+	"name": "tagsinput.js",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-25 05:10:54",
+	"updated_at": "2016-05-25 05:10:54"
+}, {
+	"id": "402",
+	"slug": "xoxco-tags-input.html",
+	"name": "xoxco tags input",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-25 05:11:05",
+	"updated_at": "2016-05-25 05:11:05"
+}, {
+	"id": "403",
+	"slug": "auth.html",
+	"name": "auth()",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-25 13:02:04",
+	"updated_at": "2016-05-25 13:02:04"
+}, {
+	"id": "404",
+	"slug": "linkedin-api.html",
+	"name": "Linkedin API",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-27 04:44:46",
+	"updated_at": "2016-05-27 04:44:46"
+}, {
+	"id": "405",
+	"slug": "daterangepicker.html",
+	"name": "daterangepicker",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-28 08:21:09",
+	"updated_at": "2016-05-28 08:21:09"
+}, {
+	"id": "407",
+	"slug": "paypal-payment-gateway.html",
+	"name": "Paypal Payment Gateway",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-05-31 05:07:51",
+	"updated_at": "2016-05-31 05:07:51"
+}, {
+	"id": "409",
+	"slug": "calculate.html",
+	"name": "Calculate",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-06-01 05:54:09",
+	"updated_at": "2016-06-01 05:54:09"
+}, {
+	"id": "410",
+	"slug": "datediff.html",
+	"name": "DATEDIFF()",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-06-01 05:54:18",
+	"updated_at": "2016-06-01 05:54:18"
+}, {
+	"id": "411",
+	"slug": "object-to-array.html",
+	"name": "Object to Array",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-06-02 16:40:30",
+	"updated_at": "2016-06-02 16:40:30"
+}, {
+	"id": "412",
+	"slug": "toarray.html",
+	"name": "toArray()",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-06-02 16:40:51",
+	"updated_at": "2016-06-02 16:40:51"
+}, {
+	"id": "415",
+	"slug": "parameters.html",
+	"name": "Parameters",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-06-08 04:51:59",
+	"updated_at": "2016-06-08 04:51:59"
+}, {
+	"id": "417",
+	"slug": "mailchimp-api.html",
+	"name": "Mailchimp API",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-06-09 15:41:23",
+	"updated_at": "2016-06-09 15:41:23"
+}, {
+	"id": "419",
+	"slug": "notification.html",
+	"name": "Notification",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-06-10 05:31:32",
+	"updated_at": "2016-06-10 05:31:32"
+}, {
+	"id": "421",
+	"slug": "toastr-js.html",
+	"name": "toastr js",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-06-10 05:32:03",
+	"updated_at": "2016-06-10 05:32:03"
+}, {
+	"id": "424",
+	"slug": "virtual-host.html",
+	"name": "virtual host",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-06-14 04:30:06",
+	"updated_at": "2016-06-14 04:30:06"
+}, {
+	"id": "425",
+	"slug": "blade-inject.html",
+	"name": "Blade inject",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-06-15 05:02:26",
+	"updated_at": "2016-06-15 05:02:26"
+}, {
+	"id": "426",
+	"slug": "elasticsearch.html",
+	"name": "Elasticsearch",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-06-16 04:36:21",
+	"updated_at": "2016-06-16 04:36:21"
+}, {
+	"id": "427",
+	"slug": "prompt-modal.html",
+	"name": "Prompt modal",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-06-16 16:22:49",
+	"updated_at": "2016-06-16 16:22:49"
+}, {
+	"id": "429",
+	"slug": "draggable.html",
+	"name": "Draggable",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-06-17 17:53:15",
+	"updated_at": "2016-06-17 17:53:15"
+}, {
+	"id": "430",
+	"slug": "sortable.html",
+	"name": "Sortable",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-06-17 17:53:24",
+	"updated_at": "2016-06-17 17:53:24"
+}, {
+	"id": "432",
+	"slug": "bootstrap-growl.html",
+	"name": "bootstrap-growl",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-06-21 16:32:26",
+	"updated_at": "2016-06-21 16:32:26"
+}, {
+	"id": "433",
+	"slug": "date-format.html",
+	"name": "date_format()",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-06-22 04:52:45",
+	"updated_at": "2016-06-22 04:52:45"
+}, {
+	"id": "435",
+	"slug": "email-verification.html",
+	"name": "Email Verification",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-06-28 17:13:04",
+	"updated_at": "2016-06-28 17:13:04"
+}, {
+	"id": "436",
+	"slug": "str-random.html",
+	"name": "str_random()",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-06-29 05:52:07",
+	"updated_at": "2016-06-29 05:52:07"
+}, {
+	"id": "438",
+	"slug": "basename.html",
+	"name": "basename()",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-06-30 04:52:51",
+	"updated_at": "2016-06-30 04:52:51"
+}, {
+	"id": "440",
+	"slug": "acl.html",
+	"name": "ACL",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-07-03 18:05:55",
+	"updated_at": "2016-07-03 18:05:55"
+}, {
+	"id": "441",
+	"slug": "cloudconvert-api.html",
+	"name": "CloudConvert API",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-07-13 05:42:52",
+	"updated_at": "2016-07-13 05:42:52"
+}, {
+	"id": "443",
+	"slug": "laravel-53.html",
+	"name": "Laravel 5.3",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-07-15 05:50:57",
+	"updated_at": "2016-07-15 05:50:57"
+}, {
+	"id": "444",
+	"slug": "sweetalert-plugin.html",
+	"name": "SweetAlert Plugin",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-07-18 04:47:38",
+	"updated_at": "2016-07-18 04:47:38"
+}, {
+	"id": "445",
+	"slug": "lavacharts.html",
+	"name": "Lavacharts",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-07-19 05:32:34",
+	"updated_at": "2016-07-19 05:32:34"
+}, {
+	"id": "446",
+	"slug": "validatorjs.html",
+	"name": "validator.js",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-07-20 18:47:00",
+	"updated_at": "2016-07-20 18:47:00"
+}, {
+	"id": "448",
+	"slug": "laravel-elixir.html",
+	"name": "laravel-elixir",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-07-22 16:23:34",
+	"updated_at": "2016-07-22 16:23:34"
+}, {
+	"id": "449",
+	"slug": "paypal.html",
+	"name": "PayPal",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-07-25 04:49:49",
+	"updated_at": "2016-07-25 04:49:49"
+}, {
+	"id": "450",
+	"slug": "opencart.html",
+	"name": "Opencart",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-07-25 04:49:58",
+	"updated_at": "2016-07-25 04:49:58"
+}, {
+	"id": "453",
+	"slug": "bootstrap-progressbarjs.html",
+	"name": "bootstrap-progressbar.js",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-08-03 08:01:56",
+	"updated_at": "2016-08-03 08:01:56"
+}, {
+	"id": "454",
+	"slug": "google-chart.html",
+	"name": "Google Chart",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-08-04 05:15:28",
+	"updated_at": "2016-08-04 05:15:28"
+}, {
+	"id": "455",
+	"slug": "autocomplete.html",
+	"name": "Autocomplete",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-08-05 05:14:56",
+	"updated_at": "2016-08-05 05:14:56"
+}, {
+	"id": "457",
+	"slug": "accordion.html",
+	"name": "Accordion",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-08-10 14:34:43",
+	"updated_at": "2016-08-10 14:34:43"
+}, {
+	"id": "459",
+	"slug": "bootstrap-multiselect-plugin.html",
+	"name": "bootstrap-multiselect plugin",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-08-17 05:08:06",
+	"updated_at": "2016-08-17 05:08:06"
+}, {
+	"id": "460",
+	"slug": "carbon.html",
+	"name": "Carbon",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-08-18 05:29:53",
+	"updated_at": "2016-08-18 05:29:53"
+}, {
+	"id": "461",
+	"slug": "gmapsjs.html",
+	"name": "gmaps.js",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-08-30 15:46:20",
+	"updated_at": "2016-08-30 15:46:20"
+}, {
+	"id": "462",
+	"slug": "screenshotmachinecom-api.html",
+	"name": "screenshotmachine.com API",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-09-12 05:03:46",
+	"updated_at": "2016-09-12 05:03:46"
+}, {
+	"id": "463",
+	"slug": "setinterval.html",
+	"name": "setInterval()",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-10-01 08:22:33",
+	"updated_at": "2016-10-01 08:22:33"
+}, {
+	"id": "464",
+	"slug": "clearinterval.html",
+	"name": "clearInterval()",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-10-01 08:22:43",
+	"updated_at": "2016-10-01 08:22:43"
+}, {
+	"id": "465",
+	"slug": "clearbit-api.html",
+	"name": "clearbit API",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-10-02 16:43:17",
+	"updated_at": "2016-10-02 16:43:17"
+}, {
+	"id": "466",
+	"slug": "jquerylazyloadjs.html",
+	"name": "jquery.lazyload.js",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-10-04 16:43:57",
+	"updated_at": "2016-10-04 16:43:57"
+}, {
+	"id": "467",
+	"slug": "new-features.html",
+	"name": "New Features",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-10-06 09:22:30",
+	"updated_at": "2016-10-06 09:22:30"
+}, {
+	"id": "468",
+	"slug": "jqueryemail-autocompleteminjs.html",
+	"name": "jquery.email-autocomplete.min.js",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-10-07 09:59:31",
+	"updated_at": "2016-10-07 09:59:31"
+}, {
+	"id": "469",
+	"slug": "bootstrap-plugin.html",
+	"name": "Bootstrap Plugin",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-10-11 10:03:44",
+	"updated_at": "2016-10-11 10:03:44"
+}, {
+	"id": "470",
+	"slug": "bootstrap-maxlength-plugin.html",
+	"name": "Bootstrap maxlength plugin",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-10-11 10:04:32",
+	"updated_at": "2016-10-11 10:04:32"
+}, {
+	"id": "471",
+	"slug": "timestamps.html",
+	"name": "timestamps",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-10-12 05:21:28",
+	"updated_at": "2016-10-12 05:21:28"
+}, {
+	"id": "472",
+	"slug": "tag-manager-plugin.html",
+	"name": "Tag Manager plugin",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-10-13 04:09:55",
+	"updated_at": "2016-10-13 04:09:55"
+}, {
+	"id": "473",
+	"slug": "bootstrap-show-password-plugin.html",
+	"name": "Bootstrap show password Plugin",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-10-15 07:36:02",
+	"updated_at": "2016-10-15 07:36:02"
+}, {
+	"id": "474",
+	"slug": "scout-package.html",
+	"name": "Scout Package",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-10-16 17:12:20",
+	"updated_at": "2016-10-16 17:12:20"
+}, {
+	"id": "475",
+	"slug": "algolia-package.html",
+	"name": "Algolia Package",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-10-16 17:12:29",
+	"updated_at": "2016-10-16 17:12:29"
+}, {
+	"id": "476",
+	"slug": "angularjs-directive.html",
+	"name": "AngularJS Directive",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-10-18 04:17:21",
+	"updated_at": "2016-10-18 04:17:21"
+}, {
+	"id": "479",
+	"slug": "contact-us-form.html",
+	"name": "Contact US Form",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-10-23 17:32:12",
+	"updated_at": "2016-10-23 17:32:12"
+}, {
+	"id": "480",
+	"slug": "clockface-plugin.html",
+	"name": "clockface plugin",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-10-25 05:37:33",
+	"updated_at": "2016-10-25 05:37:33"
+}, {
+	"id": "481",
+	"slug": "flash-message.html",
+	"name": "Flash Message",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-10-26 17:47:20",
+	"updated_at": "2016-10-26 17:47:20"
+}, {
+	"id": "482",
+	"slug": "gravatar-image.html",
+	"name": "Gravatar Image",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-10-28 05:12:54",
+	"updated_at": "2016-10-28 05:12:54"
+}, {
+	"id": "485",
+	"slug": "eloquent-sluggable-package.html",
+	"name": "Eloquent-Sluggable Package",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-11-13 17:21:14",
+	"updated_at": "2016-11-13 17:21:14"
+}, {
+	"id": "487",
+	"slug": "read-more.html",
+	"name": "read more",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-11-16 04:56:40",
+	"updated_at": "2016-11-16 04:56:40"
+}, {
+	"id": "489",
+	"slug": "instagram-api.html",
+	"name": "Instagram API",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-11-21 04:48:12",
+	"updated_at": "2016-11-21 04:48:12"
+}, {
+	"id": "492",
+	"slug": "angularjs-filter.html",
+	"name": "AngularJS Filter",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-11-24 04:55:01",
+	"updated_at": "2016-11-24 04:55:01"
+}, {
+	"id": "493",
+	"slug": "admin-panel.html",
+	"name": "Admin Panel",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-11-27 13:53:36",
+	"updated_at": "2016-11-27 13:53:36"
+}, {
+	"id": "494",
+	"slug": "voyager-package.html",
+	"name": "voyager package",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-11-27 13:53:51",
+	"updated_at": "2016-11-27 13:53:51"
+}, {
+	"id": "497",
+	"slug": "datatables.html",
+	"name": "datatables",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-12-04 18:18:30",
+	"updated_at": "2016-12-04 18:18:30"
+}, {
+	"id": "498",
+	"slug": "yajra-laravel-datatables-oracle.html",
+	"name": "yajra\/laravel-datatables-oracle",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-12-04 18:18:45",
+	"updated_at": "2016-12-04 18:18:45"
+}, {
+	"id": "499",
+	"slug": "behance-api.html",
+	"name": "Behance API",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-12-09 04:40:30",
+	"updated_at": "2016-12-09 04:40:30"
+}, {
+	"id": "500",
+	"slug": "thujohn-twitter-package.html",
+	"name": "thujohn\/twitter package",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-12-11 15:45:59",
+	"updated_at": "2016-12-11 15:45:59"
+}, {
+	"id": "502",
+	"slug": "zoho-mail.html",
+	"name": "Zoho mail",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-12-22 13:45:11",
+	"updated_at": "2016-12-22 13:45:11"
+}, {
+	"id": "503",
+	"slug": "bootstrap-lightbox-plugin.html",
+	"name": "Bootstrap-lightbox Plugin",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2016-12-27 05:19:24",
+	"updated_at": "2016-12-27 05:19:24"
+}, {
+	"id": "506",
+	"slug": "clipboardjs.html",
+	"name": "clipboard.js",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-01-03 09:30:29",
+	"updated_at": "2017-01-03 09:30:29"
+}, {
+	"id": "507",
+	"slug": "amazon-s3.html",
+	"name": "Amazon S3",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-01-04 04:55:19",
+	"updated_at": "2017-01-04 04:55:19"
+}, {
+	"id": "509",
+	"slug": "dynamic-dependant-dropdown.html",
+	"name": "Dynamic Dependant Dropdown",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-01-08 14:46:52",
+	"updated_at": "2017-01-08 14:46:52"
+}, {
+	"id": "510",
+	"slug": "stevebauman-location-composer-package.html",
+	"name": "stevebauman\/location composer package",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-01-11 05:24:55",
+	"updated_at": "2017-01-11 05:24:55"
+}, {
+	"id": "512",
+	"slug": "laravel-54.html",
+	"name": "Laravel 5.4",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-01-25 10:18:14",
+	"updated_at": "2017-01-25 10:18:14"
+}, {
+	"id": "514",
+	"slug": "laravel-54-markdown-mailables.html",
+	"name": "Laravel 5.4 - Markdown Mailables",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-01-28 05:42:14",
+	"updated_at": "2017-01-28 05:42:14"
+}, {
+	"id": "515",
+	"slug": "angularjs-trustashtml-filter.html",
+	"name": "AngularJS TrustAsHTML Filter",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-02-04 07:35:00",
+	"updated_at": "2017-02-04 07:35:00"
+}, {
+	"id": "517",
+	"slug": "bootstrap-tokenfield-plugin.html",
+	"name": "Bootstrap Tokenfield Plugin",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-02-10 05:02:51",
+	"updated_at": "2017-02-10 05:02:51"
+}, {
+	"id": "519",
+	"slug": "ngclipboardjs.html",
+	"name": "ngclipboard.js",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-02-21 15:41:47",
+	"updated_at": "2017-02-21 15:41:47"
+}, {
+	"id": "520",
+	"slug": "database-seeder.html",
+	"name": "Database Seeder",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-02-23 05:15:13",
+	"updated_at": "2017-02-23 05:15:13"
+}, {
+	"id": "521",
+	"slug": "react-js.html",
+	"name": "React JS",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-02-24 09:02:52",
+	"updated_at": "2017-02-24 09:02:52"
+}, {
+	"id": "523",
+	"slug": "magento.html",
+	"name": "Magento",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-03-10 05:26:40",
+	"updated_at": "2017-03-10 05:26:40"
+}, {
+	"id": "524",
+	"slug": "magento-2.html",
+	"name": "Magento 2",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-03-10 05:26:46",
+	"updated_at": "2017-03-10 05:26:46"
+}, {
+	"id": "525",
+	"slug": "bootstrap-notify-plugin.html",
+	"name": "Bootstrap Notify Plugin",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-03-11 05:11:16",
+	"updated_at": "2017-03-11 05:11:16"
+}, {
+	"id": "526",
+	"slug": "pngquant.html",
+	"name": "pngquant",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-03-19 04:48:00",
+	"updated_at": "2017-03-19 04:48:00"
+}, {
+	"id": "529",
+	"slug": "admin-bootstrap-theme.html",
+	"name": "Admin Bootstrap Theme",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-03-26 05:28:06",
+	"updated_at": "2017-03-26 05:28:06"
+}, {
+	"id": "530",
+	"slug": "sub-domain.html",
+	"name": "Sub-Domain",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-03-30 05:01:03",
+	"updated_at": "2017-03-30 05:01:03"
+}, {
+	"id": "532",
+	"slug": "roumen-feed-package.html",
+	"name": "roumen\/feed package",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-04-03 04:22:31",
+	"updated_at": "2017-04-03 04:22:31"
+}, {
+	"id": "533",
+	"slug": "sven-artisan-view-package.html",
+	"name": "sven\/artisan-view package",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-04-04 05:16:27",
+	"updated_at": "2017-04-04 05:16:27"
+}, {
+	"id": "534",
+	"slug": "laravel-resource.html",
+	"name": "Laravel Resource",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-04-12 04:54:33",
+	"updated_at": "2017-04-12 04:54:33"
+}, {
+	"id": "535",
+	"slug": "image-gallery.html",
+	"name": "Image Gallery",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-04-15 15:36:34",
+	"updated_at": "2017-04-15 15:36:34"
+}, {
+	"id": "536",
+	"slug": "unicodeveloper-laravel-password.html",
+	"name": "unicodeveloper\/laravel-password",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-04-20 04:34:43",
+	"updated_at": "2017-04-20 04:34:43"
+}, {
+	"id": "537",
+	"slug": "grayscale-image.html",
+	"name": "Grayscale Image",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-05-02 04:01:35",
+	"updated_at": "2017-05-02 04:01:35"
+}, {
+	"id": "538",
+	"slug": "mcustomscrollbar-plugin.html",
+	"name": "mCustomScrollbar Plugin",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-05-04 04:54:11",
+	"updated_at": "2017-05-04 04:54:11"
+}, {
+	"id": "539",
+	"slug": "laravel-passport.html",
+	"name": "Laravel Passport",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-05-09 06:13:57",
+	"updated_at": "2017-05-09 06:13:57"
+}, {
+	"id": "540",
+	"slug": "paytm.html",
+	"name": "Paytm",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-05-16 09:27:11",
+	"updated_at": "2017-05-16 09:27:11"
+}, {
+	"id": "542",
+	"slug": "fullcalendar-js.html",
+	"name": "Fullcalendar JS",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-06-16 04:58:13",
+	"updated_at": "2017-06-16 04:58:13"
+}, {
+	"id": "543",
+	"slug": "log-activity.html",
+	"name": "Log Activity",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-06-17 07:15:28",
+	"updated_at": "2017-06-17 07:15:28"
+}, {
+	"id": "544",
+	"slug": "modular.html",
+	"name": "Modular",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-06-20 05:48:47",
+	"updated_at": "2017-06-20 05:48:47"
+}, {
+	"id": "546",
+	"slug": "meta-http-equiv-tag.html",
+	"name": "meta http-equiv tag",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-06-22 04:30:23",
+	"updated_at": "2017-06-22 04:30:23"
+}, {
+	"id": "547",
+	"slug": "x-editable-plugin.html",
+	"name": "X-editable Plugin",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-06-27 04:33:06",
+	"updated_at": "2017-06-27 04:33:06"
+}, {
+	"id": "548",
+	"slug": "bootstrap-confirmation-js-plugin.html",
+	"name": "Bootstrap Confirmation js plugin",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-06-29 09:54:33",
+	"updated_at": "2017-06-29 09:54:33"
+}, {
+	"id": "552",
+	"slug": "ixudra-curl-composer-package.html",
+	"name": "ixudra\/curl composer package",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-07-30 09:43:24",
+	"updated_at": "2017-07-30 09:43:24"
+}, {
+	"id": "553",
+	"slug": "bootstrap-tagsinput.html",
+	"name": "bootstrap tagsinput",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-08-06 10:12:58",
+	"updated_at": "2017-08-06 10:12:58"
+}, {
+	"id": "554",
+	"slug": "laravel-55.html",
+	"name": "Laravel 5.5",
+	"meta_keyword": "",
+	"meta_description": "",
+	"created_at": "2017-08-18 02:36:35",
+	"updated_at": "2017-08-18 02:36:35"
+}]
