@@ -1,49 +1,36 @@
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <!--this include contains title, stylesheet etc-->
     <% include components/_global-head.html %>
 </head>
 <body>
-    <section>
-        <div class="container">
-            <div class="row clearfix">
-            <!--top navigation-->
-                <% include components/_global-header.html %>
-            <!--//top navigation-->
-            </div>
-            <div class="row clearfix">
-                <div class="col-sm-5">
-                    <!--flight search widget -->
-                        <% include components/_global-header.html %>
-                    <!--//flight search widget -->
-                </div>
-                <div class="col-sm-7">
-                    <!--home page carousel-->
-                        <% include components/_global-header.html %>
-                    <!--//home page carousel-->
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <div class="container">
         <div class="row clearfix">
             <!--home page alert-->
-            <% include components/_global-header.html %>
+            <% include components/_global-alerts.html %>
             <!--//home page alert-->
         </div>
     
 
         <div class="row clearfix">
             <!--promotion-->
-            <% include components/_global-header.html %>
+            <% include components/_homepage-latest.html %>
             <!--//promotion-->
         </div>
 
         <div class="row clearfix">
             <!--Accomodation Deals & Offers -->
-            <% include components/_global-header.html %>
+            <% include components/_global-promotions.html %>
             <!--//Accomodation Deals & Offers -->
+        </div>
+
+         <div class="row clearfix">
+            <!--popular gateway  -->
+            <% include components/_popular-gateway.html %>
+            <!--//popular gateway   -->
         </div>
 
         <!--this include contains title, stylesheet etc-->

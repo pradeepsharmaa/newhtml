@@ -1,0 +1,37 @@
+.ig-inner-section{
+	
+	background-image: linear-gradient(to right, #7491ff, #0ac3fa 48%, #4addea);
+	padding: 25px 20px;
+	&.ig-sixE-text{
+		background-image: linear-gradient(to left, #e281ff, #db7cf4 36%, #8464ef);
+	}
+	&.ig-sixSme-Text{
+		 background-image: linear-gradient(to left, #fbbc91, #e3a863 26%, #f17a8f);
+	}
+	&.ig-gift-text{
+ 		background-image: linear-gradient(to left, #6ff1bc, #1ca4be 51%, #2cb5dd);
+	}
+
+	.ig-icon-discount{
+		border:1px solid #ddd;
+		width:50px;
+		height:53px;
+	}
+
+	.ig-latest-text{
+		 font-size: 17px;
+  		font-weight: bold;
+  		letter-spacing:normal;
+  		display:block;
+  		color:#fff;
+	}
+	.ig-latest-text-second{
+		font-size: 14px;
+	    letter-spacing: normal;
+	    line-height: 16px;
+	    padding-top: 6px;
+	    display: block;
+	    color:#fff;
+	    height: 59px;
+	}
+}
