@@ -1,0 +1,29 @@
+.ig-wrap-alert{
+	 border: solid 1px #e5e5e5;
+     padding: 11px;
+
+	.ig-alert-img{
+	    width: 50px;
+	    height: 40px;
+	    border: 1px solid #ddd;
+	    margin-right: 10px;
+	    display: inline-block;
+	    float: left;
+	}
+	.ig-alert-name{
+		font-weight:bold;
+		font-size: 18px;
+		float:left;
+		color: #26329f;
+	}
+	.ig-arrow-carousel{
+	border: 1px solid #ddd;
+    height: 40px;
+    width: 50px;
+    display: inline-block;
+    margin-top:2px;
+	}
+	p{
+	    padding-top: 10px;
+	}
+}

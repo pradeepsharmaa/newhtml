@@ -38,7 +38,7 @@ gulp.task('browser-sync', ['nodemon'], function() {
   });
   
   gulp.task('dev-server', ['browser-sync'], function () {
-	gulp.watch(["./build/css/**/*.css", "./build/js/**/*.js", "./build/images/**/*/", "./build/icons/**/*/"], reload);
+	gulp.watch(["./views/**/*.html","./build/css/**/*.css", "./build/js/**/*.js", "./build/images/**/*/", "./build/icons/**/*/"], reload);
   });
 
 

@@ -1,0 +1,85 @@
+.ig-hp-carousel{
+    max-width: 1600px;
+    position: relative;
+    margin-top: -80px;
+    margin-left: auto;
+    margin-right: auto;
+    height:630px;
+    
+}
+.ig-hp-carousel-item{
+    .ig-carousel-image{
+        z-index:0;
+        max-width:1600px;
+        left: 0;
+        right: 0;
+        top:0;
+        margin-left: auto;
+        margin-right: auto;
+        position:relative;
+        img{
+            filter: brightness(80%);
+        }
+        .carousel-container{
+            position:absolute;
+            height:600px;
+            left: 0;
+            right: 0;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    width:100%;
+    height:520px;
+    .ig-carousel-item-text{
+        width:58%;
+        @include vertical-align;
+        z-index:999;
+        text-align:center;
+        position:absolute;
+        right:0;
+    }
+    .ig-carousel-title{
+        font-size: 50px;
+        font-weight: 700;
+        color: $white;
+        line-height:60px;
+    }
+    .ig-carousel-desc{
+        font-size:16px;
+        color:$white;
+        padding:10px 0 5px 0;
+    }
+    .ig-carousel-price{
+        @extend .ig-carousel-title;
+
+    }
+    .ig-carousel-action{
+        padding-top:20px;
+        .btn{
+            font-size:16px;
+            font-weight:700;
+            margin: 0 5px;
+        }
+        .btn-default{
+            color:$white;
+            &:hover{
+                color: $dark-gray;
+            }
+        }
+    }
+}
+.ig-search-container{
+    position:relative;
+}
+.ig-hp-search{
+    z-index:9;
+    position: absolute;
+    width:40%;
+    .ig-hp-search-form{
+        background: $white;
+        height:520px;
+        border-radius: 4px;
+    }
+}
+
