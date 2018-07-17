@@ -1,53 +1,63 @@
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
     <!--this include contains title, stylesheet etc-->
     <% include components/_global-head.html %>
 </head>
 <body>
     <section>
         <div class="container">
-            <div class="row clearfix">
-            <!--top navigation-->
-                <% include components/_global-header.html %>
-            <!--//top navigation-->
-            </div>
-            <div class="row clearfix">
-                <div class="col-sm-5">
-                    <!--flight search widget -->
-                        <% include components/_global-header.html %>
-                    <!--//flight search widget -->
-                </div>
-                <div class="col-sm-7">
-                    <!--home page carousel-->
-                        <% include components/_global-header.html %>
-                    <!--//home page carousel-->
-                </div>
-            </div>
+            
         </div>
     </section>
 
     <div class="container">
-        <div class="row clearfix">
-            <!--home page alert-->
-            <% include components/_global-header.html %>
-            <!--//home page alert-->
-        </div>
-    
+        
+         <div class="row">
 
-        <div class="row clearfix">
-            <!--promotion-->
-            <% include components/_global-header.html %>
-            <!--//promotion-->
-        </div>
+            <% include components/_homepage-deals-offers.html %>
 
-        <div class="row clearfix">
-            <!--Accomodation Deals & Offers -->
-            <% include components/_global-header.html %>
-            <!--//Accomodation Deals & Offers -->
+        </div>
+        
+        <div class="row">
+            
+            <% include components/_homepage-6e-extras.html %>
+
         </div>
 
+        <div class="row">
+
+            <% include components/_homepage-indigo-benefits.html %>
+
+        </div>
+        <!-- Global Subsription Form -->
+
+        <% include components/_global-subscription.html %>
+
+        <!-- //Global Subsription Form -->
+
+        <!-- Global Contact Section -->
+
+        <div class="row">
+
+            <% include components/_global-contact.html %>
+
+        </div>
+
+        <!-- //Global Contact Section -->
+
+        <div class="row">
+
+            <% include components/_global-footer.html %>
+
+        </div>
+        
         <!--this include contains title, stylesheet etc-->
-        <% include components/_global-footer.html %>
+        
     </div>
+
+    
+            
+       
 </body>
 </html>

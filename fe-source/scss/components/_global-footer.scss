@@ -1,0 +1,97 @@
+
+.ig-footer {
+	padding: 35px 0 0;
+	h7 {
+		font-size: 14px;
+		font-weight: bold;
+		color: #555;
+		margin-bottom: 13px;
+		display: block;
+	}
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.ig-footer-site-list {
+	li {
+		line-height: 1.57;
+		font-size: 14px;
+		a {
+			color: #666;
+			&:hover{
+				text-decoration :none;
+			}
+		}
+	}
+}
+
+.ig-footer-social-list {
+	margin-bottom: 25px;
+	li {
+		float: left;
+		margin-right: 10px;
+		a {
+			width: 18px;
+			height: 18px;
+			border: 1px solid $border-line;
+			display: block;
+			padding: 5px; 	
+		}
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}
+
+.ig-footer-download-list {
+	li {
+		margin-bottom: 10px;
+		a {
+			width: 135px;
+			height: 39px;
+			display: block;
+			background-color: $black; 
+		}
+		&:last-child {
+				margin-bottom: 0;
+		}
+	}
+}
+
+.copyright-blck {
+	padding: 20px 15px;
+	border-top: 1px solid $border-line;
+	margin-top: 35px;
+	.copyright-content {
+		float: left;
+		width: 35%;
+		span {
+			float: left;
+		    width: 30px;
+		    height: 30px;
+		    display: block;
+		    margin-right: 20px;
+		    background-color: #ddd;
+		}
+		p {
+			font-size: 14px;
+			font-weight: 600;
+			color: #666;
+			margin: 5px 0 0 38px;
+		}
+	}
+	.lang-price{
+		float: right;
+		.dropdown {
+			display: inline-block;
+		}
+		.btn {
+			font-size: 14px;
+    		padding: 0 .75rem;
+		}
+	}
+}

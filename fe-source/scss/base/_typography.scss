@@ -70,10 +70,12 @@ h6 {
 }
 
 a {
-    &,
+    color: $text-link;
+    text-decoration: none;
     &:hover,
     &:active {
         outline: 0;
+        text-decoration: underline;
         .img-hover-effect {
             -webkit-filter: brightness(.8);
             filter: brightness(.8);
@@ -88,16 +90,13 @@ a {
         transition: filter 150ms ease;
     }
 
-    line-height: 18px;
-    color: $text-link;
-    font-size: 14.4px;
     text: {
         decoration: none; //transform: none;
     }
     transition: color 200ms ease;
 
     &:hover{
-        color:$black;
+       color: $text-link;
     }
 
 }
@@ -130,7 +129,7 @@ p,
 .body-copy {
     line-height: 19px;
     font-family: 'Open Sans';
-    font-size: 16px;
+    font-size: 14px;
     color: $black;
 }
 
@@ -203,7 +202,7 @@ html,body{
     p,
     .body-copy {
         line-height: 20px;
-        font-size: 14px;
+        font-size: 16px;
     }
 
 

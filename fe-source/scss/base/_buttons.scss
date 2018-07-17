@@ -40,10 +40,11 @@
 .btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
     outline: none !important;
     outline-offset: none !important;
+    box-shadow: none !important;
 }
 .btn-primary {
     background: $blue;
-    color: $white;
+    color: $white ;
     border-color: $blue;
 
     &:hover,

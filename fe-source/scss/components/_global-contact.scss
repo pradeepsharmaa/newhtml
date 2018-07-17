@@ -1,0 +1,26 @@
+
+.ig-contact-us {
+    padding: 40px 0;
+	border-bottom: 1px solid $border-line;
+	.ig-icon-blck {
+		float: left;
+		span {
+			width: 30px;
+			height: 30px;
+			border: 1px solid #333;
+			display: block;
+		}
+	}
+	.ig-content-blck {
+		padding-left: 50px;
+		h6 {
+			font-size: 15px;
+			color: $dark-gray;
+
+		}
+		p {
+			color: $medium-gray;
+			font-size: 14px;
+		}
+	}
+}
