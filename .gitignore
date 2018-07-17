@@ -2,3 +2,4 @@ node_modules/
 build/
 fe-source/bower_components/
 csslint-reports/
+bower_components/
