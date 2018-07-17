@@ -23,6 +23,7 @@ app.set('views', __dirname + '/views');
 app.use('/', express.static('build/'));
 
 
+
 //app.set('views', __dirname + '/views/components');
 
 // Without this you would need to

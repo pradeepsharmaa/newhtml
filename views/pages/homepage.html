@@ -2,28 +2,17 @@
 <head>
     <!--this include contains title, stylesheet etc-->
     <% include components/_global-head.html %>
+    <!--//this include contains title, stylesheet etc-->
 </head>
 <body>
     <section>
-        <div class="container">
-            <div class="row clearfix">
-            <!--top navigation-->
-                <% include components/_global-header.html %>
-            <!--//top navigation-->
-            </div>
-            <div class="row clearfix">
-                <div class="col-sm-5">
-                    <!--flight search widget -->
-                        <% include components/_global-header.html %>
-                    <!--//flight search widget -->
-                </div>
-                <div class="col-sm-7">
-                    <!--home page carousel-->
-                        <% include components/_global-header.html %>
-                    <!--//home page carousel-->
-                </div>
-            </div>
-        </div>
+        <!--top navigation-->
+            <% include components/_global-navigation.html %>
+        <!--//top navigation-->
+        
+        <!--homepage flight search and carouselsearch -->
+            <% include components/_homepage-search-carousel.html %>
+        <!--//homepage flight search and carouselsearch -->
     </section>
 
     <div class="container">
