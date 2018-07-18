@@ -68,6 +68,14 @@ define('global', ['jquery', 'slick', 'popper', 'bootstrap', 'parsley', 'globalHe
             init: function() {
                 login.init();
                 this.homePageCarousel();
+                if(window.innerWidth < 1000){
+                this.latestcarousel();    
+                };
+                this.alertcarousel();
+                this.promotioncarousel();
+                if(window.innerWidth > 1024){
+                this.popularcarousel();    
+                };
             },
             homePageCarousel: function(){
                 var $carouselElement = $(".ig-hp-carousel");
@@ -76,13 +84,82 @@ define('global', ['jquery', 'slick', 'popper', 'bootstrap', 'parsley', 'globalHe
                         dots: true,
                         slidesToShow: 1,
                         slidesToScroll: 1,
-                        autoplay: true,
+                        autoplay: false,
                         adaptiveHeight: true
 
 
+                    }   );
+                }
+            },
+               latestcarousel: function(){
+                var $carouselElementlatest = $(".runlatestcarousel");
+                if($carouselElementlatest.length){
+                    $carouselElementlatest.slick({
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        responsive: [
+                            {
+                              breakpoint: 480,
+                              settings: {
+                                arrows: false,
+                              }
+                            }
+                          ]
                     });
                 }
-            }
+            },
+             alertcarousel: function(){
+                var $alertcarousel = $(".ig-run-alert-carousel");
+                if($alertcarousel.length){
+                    $alertcarousel.slick({
+                        dots: false,
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        autoplay: false,
+                        adaptiveHeight: false,
+
+                    });
+                }
+            },
+              promotioncarousel: function(){
+                var $promotioncarousel = $(".ig-promotions-carousel");
+                if($promotioncarousel.length){
+                    $promotioncarousel.slick({
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: false,
+                        responsive: [
+                            {
+                              breakpoint: 1024,
+                              settings: {
+                                arrows: false,
+                                slidesToScroll: 3,
+                                slidesToShow: 3
+                              }
+                            },
+                            {
+                              breakpoint: 480,
+                              settings: {
+                                arrows: false,
+                                slidesToScroll: 1,
+                                slidesToShow: 1,
+                              }
+                            }
+                          ]
+                    });
+                }
+            },
+            popularcarousel: function(){
+                var $promotioncarousel = $(".ig-popular-carousel");
+                if($promotioncarousel.length){
+                    $promotioncarousel.slick({
+                        slidesToShow: 4,
+                        slidesToScroll: 4,
+                        infinite: false,
+                    });
+                }
+            },
+
         }
 
         $(function() {
@@ -91,3 +168,4 @@ define('global', ['jquery', 'slick', 'popper', 'bootstrap', 'parsley', 'globalHe
 
         return indigoGlobal;
     });
+
