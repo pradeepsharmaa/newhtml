@@ -3,19 +3,34 @@
     //mobile
 }
 
-@include breakpoint(mobile){
-    //desktop
-}
-
 .ig-global-nav{
-    background-image: linear-gradient(to bottom, #313131, rgba(100, 100, 100, 0));
     z-index:1;
     max-width:1600px;
     margin: 0 auto;
-    padding:22px 0;
+    padding:22px 0 40px 0;
+    @include breakpoint(mobile){
+        background-image: none;
+        padding:15px 0;
+    }
+    > .container{
+        display: block;
+    }
     .ig-logo{
         padding-right:10px;
         float:left;
+        svg{
+            path{
+                fill: #FFF;
+            }
+        }
+        @include breakpoint(mobile){
+            padding:5px 10px;
+            svg{
+                path{
+                    fill: $blue;
+                }
+            }
+        }
     }
     .ig-search{
         float:left;
@@ -23,6 +38,13 @@
             color:$white;
             opacity: 0.7;
             font-size:15px;
+        }
+        @include breakpoint(mobile){
+            float:right;
+            margin-right:15px;
+            span{
+                color:$black;
+            }
         }
     }
     .ig-nav-links{
@@ -37,6 +59,33 @@
                     font-weight:600;
                 }
             }
+        }
+        @include breakpoint(mobile){
+            clear: both;
+            padding-top:15px;
+            ul{
+                border-top:1px solid $border-line;
+                li{
+                    float:none;
+                    padding-left:0;
+                    border-bottom:1px solid $border-line;
+                     
+                    a{
+                        padding:10px 15px;
+                        display: block;
+                        color:$black;
+                    }
+                }
+            }
+        }
+    }
+    .navbar-toggler{
+        border:0;
+        float:left;
+        &:hover,
+        &:focus,
+        &:active{
+            outline: none;
         }
     }
 }

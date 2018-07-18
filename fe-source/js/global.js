@@ -22,9 +22,10 @@ require.config({
         'matchMedia': 'helpers/matchMedia',
         'typeahead': 'helpers/typeahead',
         'slick': 'helpers/slick.min',
+        'utility': 'helpers/global-utility',
 
         //global components
-        'globalHeader': 'components/global-header',
+        'globalSearchCarousel': 'components/homepage-search-carousel',
     },
     shim: {
         // define JS dependencies here, plugins (non-amd compliant) need this shim config
@@ -61,27 +62,13 @@ require.config({
  * @function Global Module Loader
  * @description : use this for any global functionality
  */
-define('global', ['jquery', 'slick', 'popper', 'bootstrap', 'parsley', 'globalHeader'],
-    function($, slick, popper, bootstrap, parsley, login) {
+define('global', ['jquery', 'slick', 'popper', 'bootstrap', 'parsley', 'utility', 'globalSearchCarousel'],
+    function($, slick, popper, bootstrap, parsley, utility, globalSearchCarousel) {
         //'use strict';
         var indigoGlobal = {
             init: function() {
-                login.init();
-                this.homePageCarousel();
-            },
-            homePageCarousel: function(){
-                var $carouselElement = $(".ig-hp-carousel");
-                if($carouselElement.length){
-                    $carouselElement.slick({
-                        dots: true,
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        autoplay: true,
-                        adaptiveHeight: true
-
-
-                    });
-                }
+                utility.floatingLabelsInit();
+                globalSearchCarousel.init();
             }
         }
 
