@@ -8,6 +8,9 @@
     @include breakpoint(mobile){
         height:auto;
     }
+    .slick-slide{
+        height:100%;
+    }
 }
 
 .ig-hp-carousel-item{

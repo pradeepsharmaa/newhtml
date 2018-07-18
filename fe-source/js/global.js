@@ -69,7 +69,7 @@ define('global', ['jquery', 'slick', 'popper', 'bootstrap', 'parsley', 'utility'
             init: function() {
                 utility.floatingLabelsInit();
                 globalSearchCarousel.init();
-            }
+                
                 if(window.innerWidth < 1000){
                 this.latestcarousel();    
                 };
