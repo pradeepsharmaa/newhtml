@@ -1,7 +1,7 @@
 .ig-wrap-alert{
-	 border: solid 1px #e5e5e5;
-     padding: 11px;
 
+     padding: 11px;
+     height:143px;
 	.ig-alert-img{
 	    width: 50px;
 	    height: 40px;
@@ -22,8 +22,37 @@
     width: 50px;
     display: inline-block;
     margin-top:2px;
+    @include breakpoint(mobile){ 
+	display:none;
+	}
 	}
 	p{
 	    padding-top: 10px;
 	}
+
+	.slick-dots{
+	    bottom: -40px;
+	}
 }
+
+.ig-parent-alert {
+	border:1px solid #e5e5e5;
+@include breakpoint(desktop){ 
+	height:70px;
+	}
+		.slick-prev, .slick-next{
+		width: 20px !important;
+	    height: 20px !important;
+	    box-shadow: none !important;
+	}
+	.slick-next{
+	right:-33px;
+	}
+	.slick-prev{
+    left: inherit;
+	right: -56px;
+	}
+
+
+}
+
