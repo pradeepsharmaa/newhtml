@@ -22,9 +22,10 @@ require.config({
         'matchMedia': 'helpers/matchMedia',
         'typeahead': 'helpers/typeahead',
         'slick': 'helpers/slick.min',
+        'utility': 'helpers/global-utility',
 
         //global components
-        'globalHeader': 'components/global-header',
+        'homepageSearchCarousel': 'components/homepage-search-carousel',
     },
     shim: {
         // define JS dependencies here, plugins (non-amd compliant) need this shim config
@@ -61,192 +62,58 @@ require.config({
  * @function Global Module Loader
  * @description : use this for any global functionality
  */
-define('global', ['jquery', 'slick', 'popper', 'bootstrap', 'parsley', 'globalHeader'],
-    function($, slick, popper, bootstrap, parsley, login) {
+define('global', ['jquery', 'slick', 'popper', 'bootstrap', 'parsley', 'utility', 'homepageSearchCarousel'],
+    function($, slick, popper, bootstrap, parsley, utility, homepageSearchCarousel) {
         //'use strict';
         var indigoGlobal = {
             init: function() {
-                login.init();
-                this.homePageCarousel();
                 this.footerAccordian();
                 if(window.innerWidth < 1000){
                    this.indigoCommonCarousel($('.benefitscarousel'));
                    this.indigoCommonCarousel($('.sixEextrascarousel'));    
                 }
+                utility.floatingLabelsInit();
+                homepageSearchCarousel.init();
+                
+                if(window.innerWidth < 1000){
+                this.latestcarousel();    
+                };
+                this.alertcarousel();
+                this.promotioncarousel();
+                if(window.innerWidth > 1024){
+                this.popularcarousel();    
+                };
             },
-            homePageCarousel: function(){
-                var $carouselElement = $(".ig-hp-carousel");
-                if($carouselElement.length){
-                    $carouselElement.slick({
-                        dots: true,
+           latestcarousel: function(){
+                var $carouselElementlatest = $(".runlatestcarousel");
+                if($carouselElementlatest.length){
+                    $carouselElementlatest.slick({
                         slidesToShow: 1,
                         slidesToScroll: 1,
-                        autoplay: true,
-                        adaptiveHeight: true
-
+                        responsive: [
+                            {
+                              breakpoint: 480,
+                              settings: {
+                                arrows: false,
+                              }
+                            }
+                          ]
+                    });
+                }
+            },
+             alertcarousel: function(){
+                var $alertcarousel = $(".ig-run-alert-carousel");
+                if($alertcarousel.length){
+                    $alertcarousel.slick({
+                        dots: false,
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        autoplay: false,
+                        adaptiveHeight: false,
 
                     });
                 }
             },
-
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
             footerAccordian: function(){
                 var $showElement = $("#accordion .collapse");
@@ -268,7 +135,45 @@ define('global', ['jquery', 'slick', 'popper', 'bootstrap', 'parsley', 'globalHe
                         infinite: false
                     });
                 }
-            }
+            }, 
+            promotioncarousel: function(){
+                var $promotioncarousel = $(".ig-promotions-carousel");
+                if($promotioncarousel.length){
+                    $promotioncarousel.slick({
+                        slidesToShow: 3,
+                        slidesToScroll: 3,
+                        infinite: false,
+                        responsive: [
+                            {
+                              breakpoint: 1024,
+                              settings: {
+                                arrows: false,
+                                slidesToScroll: 3,
+                                slidesToShow: 3
+                              }
+                            },
+                            {
+                              breakpoint: 480,
+                              settings: {
+                                arrows: false,
+                                slidesToScroll: 1,
+                                slidesToShow: 1,
+                              }
+                            }
+                          ]
+                    });
+                }
+            },
+            popularcarousel: function(){
+                var $promotioncarousel = $(".ig-popular-carousel");
+                if($promotioncarousel.length){
+                    $promotioncarousel.slick({
+                        slidesToShow: 4,
+                        slidesToScroll: 4,
+                        infinite: false,
+                    });
+                }
+            },
         }
 
         $(function() {
@@ -277,3 +182,4 @@ define('global', ['jquery', 'slick', 'popper', 'bootstrap', 'parsley', 'globalHe
 
         return indigoGlobal;
     });
+

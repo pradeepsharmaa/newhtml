@@ -1,0 +1,317 @@
+/* MOBILE & DEFAULT STYLES
+ *************************************************************/
+.ig-form-control{
+    padding-top:25px;
+}
+.form-control {
+    box-shadow:none;
+    -webkit-box-shadow:none;
+    border-radius: 0px;
+    &:focus,&:visited{
+        box-shadow:none;
+        -webkit-box-shadow:none;
+        color:$black;
+    }
+}
+.ig-input-group {
+    label{
+        font-weight:normal;
+    }
+    position: relative;
+    padding-bottom:28px;
+    input.form-control {
+        border-radius:0;
+        border:0;
+        border-bottom: solid 1px $border-line;
+        height: 50px;
+        font-size:18px;
+        padding-left:5px;
+        color: $black;
+        font-weight:600;
+        &:focus,&:visited{
+            box-shadow:none;
+            -webkit-box-shadow:none;
+            color:$black;
+            border-bottom: solid 1px $blue-hover;
+        }
+        &::placeholder {
+            color: $gray;
+        }
+        
+    }
+    
+    // TODO: this should be replaced with custom-checkbox
+    input[type="checkbox"] {
+        height: 16px;
+        width: 16px;
+        border: 1px solid $gray;
+        border-radius:0;
+        -webkit-appearance: none;
+        -webkit-transition: box-shadow 200ms;
+        cursor: pointer;
+        &:focus, &:visited{
+            outline:none;
+        }
+        &:checked:before {
+            content: '';
+            display: block;
+            height: 16px;
+            width: 16px;
+            //@include icon(black-checked);
+            -webkit-background-size:11px 8px;
+            background-size:11px 8px;
+            background-position: 2px 3px;
+        }
+    }
+    input[type="radio"]{
+        height: 16px;
+        width: 16px;
+        border: 1px solid $gray;
+        border-radius: 100%;
+        -webkit-appearance: none;
+        &:focus, &:visited{
+            outline: none;
+        }
+        &:checked{
+            position: relative;
+        }
+        &:checked:before{
+            content:'';
+            display:block;
+            width:8px;
+            height:8px;
+            position:absolute;
+            top:3px;
+            left:3px;
+            background:none $black;
+            -webkit-border-radius: 100%;
+            -moz-border-radius: 100%;
+            border-radius: 100%;
+        }
+    }
+}
+
+.custom-radio {
+  input[type="radio"] {
+    width: 18px;
+    position: absolute;
+      &:before {
+        content: '';
+        background: #fff;
+        border-radius: 100%;
+        border: 1px solid #b4b2b0;
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        position: relative;
+        vertical-align: top;
+        cursor: pointer;
+        top: 0px;
+        left: -1px;    
+      }
+    +label {
+      margin-bottom: 0;
+      font-weight: normal;
+      margin-left: 25px;
+    }
+    &:checked {
+        &:before {
+          background-color: $blue-hover;
+          border-color: $blue-hover;
+          box-shadow: inset 0 0 0 3px $white;
+        }
+    }
+    &:focus, &:visited{
+        outline:none;
+    }
+  }
+}
+
+
+.success {
+    .simon-input-group-addon {
+        color: $red;
+    }
+}
+
+/* 
+ * Checkbox 
+ * Usage: <label class="custom-checkbox"><input type="checkbox" class="sr-only"/><i class="i-checkbox"></i>TEXT</label>
+*/
+.custom-checkbox{
+    $boxsize: 16px;
+    
+    line-height: 20px;
+    font-weight: normal;
+    cursor: pointer;
+    .i-checkbox{
+       border: 1px solid $gray;
+        color: $black;
+        width: $boxsize;
+        height: $boxsize;
+        display: inline-block;
+        position: relative;
+        margin-right: 10px;
+        vertical-align: middle;
+    }
+    input[type="checkbox"]{
+        display:none;
+    }
+    input[type="checkbox"] + .i-checkbox::before{
+        //@include indigoicon();
+        position: absolute;
+        top: -3px;
+        left: 2px;
+        font-size: 7px;
+    }
+
+    input[type="checkbox"]:checked + .i-checkbox::before{
+        //content:$icon-checked;
+    }
+
+    input[type="checkbox"] + .i-checkbox.disabled{
+        cursor:not-allowed;
+        &::before{
+            background: none;
+            background-color:#e4e4e4 !important;
+        }
+    }
+}
+
+.error{
+    color: $red;
+}
+
+$border-color: #c8c8c8;
+$active-bg: $white;
+$active-color: #52a6e1;
+$anim: cubic-bezier(0.215, 0.610, 0.355, 1.00);
+$error-color: $red;
+
+.bt-form__wrapper {
+  margin: 30px auto;
+  max-width: 500px;
+}
+
+.ig-form-validation {  
+  .field-label {
+    pointer-events: none;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    transform: translateY(15%);
+    z-index: 2;
+    font-size: 13px;
+    line-height:13px;
+    color: $dark-gray;
+    transition: transform 0.3s $anim, opacity 0.3s $anim;
+  }
+  
+  >*:not(:first-child) {
+    
+    &.sm-input-group, .sm-input-group {
+      border-top: none;
+    }
+  }
+}
+
+.field-error {
+  opacity: 0;
+  //color: $error-color;
+  font-size: 11px;
+  z-index: 3;
+  pointer-events: none;
+  ul{
+    margin:0;
+    padding:0;
+    list-style-type:none;
+    display: inline-block;
+  }
+}
+
+::-webkit-input-placeholder { /* Chrome */
+      font-weight:400;
+    }
+    :-ms-input-placeholder { /* IE 10+ */
+        font-weight:400;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+        font-weight:400;
+    }
+    :-moz-placeholder { /* Firefox 4 - 18 */
+        font-weight:400;
+    }
+
+.has-error {
+    ::-webkit-input-placeholder { /* Chrome */
+      color: $red!important;
+    }
+    :-ms-input-placeholder { /* IE 10+ */
+      color: $red!important;
+    }
+    ::-moz-placeholder { /* Firefox 19+ */
+      color: $red!important;
+      opacity: 1;
+    }
+    :-moz-placeholder { /* Firefox 4 - 18 */
+      color: $red!important;
+      opacity: 1;
+    }
+
+
+.field-label {
+    color:$red;
+}
+  input[type] {
+      border-bottom:2px solid $red!important;
+    &:focus {
+        border-bottom:2px solid $red!important;
+    }
+  }
+
+  select {
+    border-bottom: 2px solid $red !important;
+    color: $red;
+    &:focus {
+      border-bottom: 2px solid $red !important;
+      color: $red;
+    }
+  }
+  
+  .field-error {
+    opacity: 1;
+    transform: translateY(0);
+    text-transform: none;
+    &:before{
+        content: ":";
+        display:inline-block;
+        padding-right: 3px;
+    }
+  }
+  .parsley-errors-list{
+      li{
+          font-size:13px;
+          color:$red;
+          padding-top:5px;
+      }
+  }
+}
+
+.bt-flabels--right {
+  border-left: none;
+}
+.field-float {
+  .field-label {   
+    opacity: 1;
+    transform: translateY(0);
+    margin-top: -5px;
+  }
+  &.input-focused{
+    .field-label {
+        color:$blue-hover;
+    }
+  }
+  input[type] {
+    padding-top: 9px;
+  }
+}

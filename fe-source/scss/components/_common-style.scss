@@ -16,3 +16,24 @@
 .ig-common-bottom{
 	margin-bottom:30px;
 }
+
+.ig-carosuel-item{
+	max-width:100%;
+}
+
+.slick-prev, .slick-next {
+	width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    box-shadow: 0 0 12px #ddd;
+    background:#fff;
+}
+.slick-prev:before, .slick-next:before{
+	color:#999;
+}
+.slick-next{
+	    right: -16px;
+}
+.slick-prev {
+    left: -15px;
+}

@@ -1,80 +1,165 @@
 <div class="container ig-search-container">
     <div class="row clearfix">
         <!--search-->
-        <div class="col-md-5 ig-hp-search">
+        <div class="ig-hp-search">
             <div class="ig-hp-search-form">
-            </div>
-        </div>
-    </div>
-</div>
-        <div class="ig-hp-carousel">
-            <div class="ig-hp-carousel-item">
-                <div class="ig-carousel-image">
-                    <div class="container carousel-container">
-                        <div class="ig-carousel-item-text">
-                                <div class="ig-carousel-title">
-                                Fly Jaipur
+                <div class="ig-search-tabs">
+                    <button type="button" class="btn active">Book Flight</button>
+                    <button type="button" class="btn">Check in</button>
+                    <button type="button" class="btn">Flight Status</button>
+                    <button type="button" class="btn">My Booking </button>
+                    <button type="button" class="btn ig-more">:</button>
+                </div>
+                <form class="ig-form-validation hpFlightSearch">
+                    <div class="hp-search-type">
+                        <span class="custom-radio">
+                            <input type="radio" name="searchType" checked id="bookFlight" class="form-control"> 
+                            <label for="bookFlight">Book Flight</label>
+                        </span>
+                        <span class="custom-radio">
+                            <input type="radio" name="searchType" required id="roundTrip" >
+                            <label for="roundTrip">Round Trip</label>
+                        </span>
+                        <span class="custom-radio">
+                            <input type="radio" name="searchType" required id="multiCity">
+                            <label for="multiCity">Multi City</label>
+                        </span>
+                    </div>
+                    <div class="row cleartrip">
+                        <div class="col-sm-6">
+                            <div class="ig-input-group">
+                                <label class="field-label">From</label>
+                                <input type="text" required placeholder="From" class="form-control hpBookingForm">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                                <div class="ig-input-group">
+                                    <label class="field-label">To</label>
+                                    <input type="text" required placeholder="To" class="form-control hpBookingForm">
                                 </div>
-                                <div class="ig-carousel-desc">
-                                Available for a limited time from
+                        </div>
+                    </div>
+                    <div class="row cleartrip">
+                            <div class="col-sm-6">
+                                <div class="ig-input-group">
+                                    <label class="field-label">Departure</label>
+                                    <input type="text" required placeholder="Departure" class="form-control hpBookingForm">
                                 </div>
-                                <div class="ig-carousel-price">
-                                ₹4999
-                                <span>one way*</span>
-                                </div>
-                                <div class="ig-carousel-action">
-                                <button class="btn btn-secondary">Book now</button>
-                                <button class="btn-default btn">Learn more</button>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="ig-input-group">
+                                    <label class="field-label">Return</label>
+                                    <input type="text" required placeholder="Return" class="form-control hpBookingForm">
                                 </div>
                             </div>
                     </div>
-                    <picture>
-                    <!--[if IE 9]>
-                    <video style="display: none;">
-                        <![endif]-->
-                        <source srcset="images/img_jaipur_mobile.jpg" media="(max-width: 991px)">
-                        <source srcset="images/img_jaipur_desktop.jpg">
-                        <!--[if IE 9]>
-                    </video>
-                    <![endif]-->
-                    <img class="img-fluid" srcset="images/img_jaipur_desktop.jpg" alt="IndiGO">
-                    </picture>
-                
-                </div>
-            </div>
-            <div class="ig-hp-carousel-item">
-                    <div class="ig-carousel-image">
-                        <div class="container carousel-container">
-                            <div class="ig-carousel-item-text">
-                                    <div class="ig-carousel-title">
-                                    Fly Goa
-                                    </div>
-                                    <div class="ig-carousel-desc">
-                                    Available for a limited time from
-                                    </div>
-                                    <div class="ig-carousel-price">
-                                    ₹4999
-                                    <span>one way*</span>
-                                    </div>
-                                    <div class="ig-carousel-action">
-                                    <button class="btn btn-secondary">Book now</button>
-                                    <button class="btn-default btn">Learn more</button>
-                                    </div>
+                    <div class="row cleartrip">
+                            <div class="col-sm-6">
+                                <div class="ig-input-group">
+                                    <label class="field-label">Passenger(s) Class</label>
+                                    <input type="text" required placeholder="Passenger(s) Class" class="form-control hpBookingForm">
                                 </div>
-                        </div>
-                        <picture>
-                        <!--[if IE 9]>
-                        <video style="display: none;">
-                            <![endif]-->
-                            <source srcset="images/img_goa_mobile.jpg" media="(max-width: 991px)">
-                            <source srcset="images/img_goa_desktop.jpg">
-                            <!--[if IE 9]>
-                        </video>
-                        <![endif]-->
-                        <img class="img-fluid" srcset="images/img_goa_desktop.jpg" alt="IndiGO">
-                        </picture>
-                    
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="ig-input-group">
+                                    <label class="field-label">Pay In</label>
+                                    <input type="text" required placeholder="Pay In" class="form-control hpBookingForm">
+                                </div>
+                            </div>
                     </div>
-                </div>
-            
+                    <div class="row cleartrip">
+                            <div class="col-sm-6">
+                                <button class="btn btn-transparent ig-special-opt-btn">Special Option Fair</button>
+                            </div>
+                            <div class="col-sm-6">
+                                <button class="btn btn-primary block bold ig-search-btn" type="submit">Search Flight</button>
+                            </div>
+                        </div>
+                        <div class="ig-search-extras">
+                            <button class="btn" type="button">Package</button>
+                            <button class="btn" type="button">Group Booking</button>
+                            <button class="btn" type="button">Hotels</button>
+                            <button class="btn" type="button">Car Rental</button>
+                        </div>
+                </form>
+            </div>
         </div>
+        <!--//search-->
+    </div>
+</div>
+<!--home page carousel start-->
+<div class="ig-hp-carousel">
+    <!--carousel item start-->
+    <div class="ig-hp-carousel-item">
+        <div class="ig-carousel-image">
+            <div class="container carousel-container">
+                <div class="ig-carousel-item-text">
+                        <div class="ig-carousel-title">
+                        Fly Jaipur
+                        </div>
+                        <div class="ig-carousel-desc">
+                        Available for a limited time from
+                        </div>
+                        <div class="ig-carousel-price">
+                        ₹4999
+                        <span>one way*</span>
+                        </div>
+                        <div class="ig-carousel-action">
+                        <button class="btn btn-secondary">Book now</button>
+                        <button class="btn-default btn">Learn more</button>
+                        </div>
+                    </div>
+            </div>
+            <picture>
+            <!--[if IE 9]>
+            <video style="display: none;">
+                <![endif]-->
+                <source srcset="images/img_jaipur_mobile.jpg" media="(max-width: 991px)">
+                <source srcset="images/img_jaipur_desktop.jpg">
+                <!--[if IE 9]>
+            </video>
+            <![endif]-->
+            <img class="img-fluid" srcset="images/img_jaipur_desktop.jpg" alt="IndiGO">
+            </picture>
+        
+        </div>
+    </div>
+    <!--//carousel item start-->
+    <!--carousel item start-->
+    <div class="ig-hp-carousel-item">
+            <div class="ig-carousel-image">
+                <div class="container carousel-container">
+                    <div class="ig-carousel-item-text">
+                            <div class="ig-carousel-title">
+                            Fly Goa
+                            </div>
+                            <div class="ig-carousel-desc">
+                            Available for a limited time from
+                            </div>
+                            <div class="ig-carousel-price">
+                            ₹4999
+                            <span>one way*</span>
+                            </div>
+                            <div class="ig-carousel-action">
+                            <button class="btn btn-secondary">Book now</button>
+                            <button class="btn-default btn">Learn more</button>
+                            </div>
+                        </div>
+                </div>
+                <picture>
+                <!--[if IE 9]>
+                <video style="display: none;">
+                    <![endif]-->
+                    <source srcset="images/img_goa_mobile.jpg" media="(max-width: 991px)">
+                    <source srcset="images/img_goa_desktop.jpg">
+                    <!--[if IE 9]>
+                </video>
+                <![endif]-->
+                <img class="img-fluid" srcset="images/img_goa_desktop.jpg" alt="IndiGO">
+                </picture>
+            
+            </div>
+        </div>
+        <!--//carousel item start-->
+</div>
+<!--//home page carousel start-->

@@ -1,12 +1,18 @@
 .ig-hp-carousel{
     max-width: 1600px;
     position: relative;
-    margin-top: -80px;
     margin-left: auto;
     margin-right: auto;
-    height:630px;
-    
+    height:620px;
+    margin-top: -95px;
+    @include breakpoint(mobile){
+        height:auto;
+    }
+    .slick-slide{
+        height:100%;
+    }
 }
+
 .ig-hp-carousel-item{
     .ig-carousel-image{
         z-index:0;
@@ -52,7 +58,10 @@
     }
     .ig-carousel-price{
         @extend .ig-carousel-title;
-
+        span{
+            font-size:16px;
+            font-weight:400;
+        }
     }
     .ig-carousel-action{
         padding-top:20px;
@@ -75,11 +84,77 @@
 .ig-hp-search{
     z-index:9;
     position: absolute;
-    width:40%;
+    width:455px;
+    @include breakpoint(mobile){
+        position: static;
+        width:100%;
+    }
     .ig-hp-search-form{
         background: $white;
-        height:520px;
         border-radius: 4px;
+        box-shadow: 0 5px 8px 0 rgba(133, 133, 133, 0.5);
+    }
+    .hp-search-type{
+        padding:20px 0 25px 0;
+        .custom-radio{
+            label{
+                font-size:15px;
+                padding-right:25px;
+            }
+        }
+    }
+    .ig-search-tabs{
+        button{
+            font-size:13px;
+            border:1px solid $border-line;
+            margin-right:3px;
+            padding:5px 13px;
+            &.ig-more{
+                border:0;
+                margin-right:0;
+                float:right;
+                padding-right:0;
+                padding-left:5px;
+            }
+            &:hover, &.active{
+                color:$white;
+                background:$dark-gray;
+            }
+        &:last-child{
+           background: transparent;
+           &:hover{
+               color:$black;
+           } 
+        }
+        }
+    }
+    
+    .ig-hp-search-form{
+        padding:20px;
+        .ig-search-extras{
+            padding-top:25px;
+            button{
+                background:$light-gray;
+                font-size:12px;
+                margin-right:5px;
+                padding:8px 12px 8px 25px;
+                &:hover{
+                    background:$gray;
+                }
+            }
+        }
+    }
+
+    .ig-special-opt-btn{
+        color:$dark-gray;
+        font-weight:600;
+        padding-left:0;
+    }
+    .ig-search-btn{
+        padding:12px 0;
     }
 }
 
+.ig-hp-carousel, .ig-hp-carousel .slick-list{
+    transition: height 0.25s ease-in;
+}
