@@ -1,12 +1,23 @@
 
 .ig-footer {
 	padding: 35px 0 0;
+	position: relative;
 	h7 {
-		font-size: 14px;
+		font-size: 15px;
 		font-weight: bold;
 		color: #555;
 		margin-bottom: 13px;
 		display: block;
+	}
+	.social-links{
+		position: absolute;
+		right: 0;
+		@include breakpoint(mobile){ 
+			position: static;
+		}
+	}
+	@include breakpoint(mobile){ 
+		text-align: center;
 	}
 }
 
@@ -31,19 +42,20 @@ ul{
 
 .ig-footer-social-list {
 	margin-bottom: 25px;
-	li {
-		float: left;
-		margin-right: 10px;
-		a {
-			width: 18px;
-			height: 18px;
-			border: 1px solid $border-line;
-			display: block;
-			padding: 5px; 	
-		}
-		&:last-child {
-			margin-right: 0;
-		}
+	a {
+		width: 18px;
+		height: 18px;
+		border: 1px solid $border-line;
+		display: inline-block;
+		padding: 5px; 	
+	}
+	&:last-child {
+		margin-right: 0;
+	}
+	
+	@include breakpoint(mobile){ 
+	    margin: 0 auto 25px;
+	    width: 29%;
 	}
 }
 
@@ -57,7 +69,7 @@ ul{
 			background-color: $black; 
 		}
 		&:last-child {
-				margin-bottom: 0;
+			margin-bottom: 0;
 		}
 	}
 }
@@ -76,22 +88,65 @@ ul{
 		    display: block;
 		    margin-right: 20px;
 		    background-color: #ddd;
+		    @include breakpoint(mobile){ 
+				margin-right: 10px;
+			}
 		}
 		p {
 			font-size: 14px;
 			font-weight: 600;
 			color: #666;
-			margin: 5px 0 0 38px;
+			margin: 5px 0 0 40px;
+			@include breakpoint(mobile){ 
+				text-align: left;
+			}
+		}
+		@include breakpoint(mobile){ 
+			width: 48%;
 		}
 	}
 	.lang-price{
 		float: right;
+		margin-top: 3px;
 		.dropdown {
 			display: inline-block;
 		}
 		.btn {
 			font-size: 14px;
     		padding: 0 .75rem;
+		}
+	}
+}
+
+.ig-footer-accordion {
+	width: 75%;
+	@include breakpoint(mobile){ 
+		width: 100%
+	}
+	.ig-acc-sitemap {
+		display: inline-block;
+		vertical-align: top;
+    	max-width: 32%;
+    	@include breakpoint(mobile){ 
+    		max-width: 100%;
+    	}
+	}
+	.btn-link{
+		font-size: 15px;
+	    font-weight: bold;
+	    color: #555;
+	    margin-bottom: 13px;
+	    display: block;
+	    padding: 0;
+		&:hover,
+	    &:focus,
+	    &:active,
+	    &.active {
+			text-decoration: none;
+		}
+		@include breakpoint(mobile){ 
+			margin: 0 auto;
+			padding: .375rem .75rem;
 		}
 	}
 }

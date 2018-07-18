@@ -2,6 +2,11 @@
 .ig-contact-us {
     padding: 40px 0;
 	border-bottom: 1px solid $border-line;
+	@include breakpoint(mobile){ 
+		text-align: center;
+		padding: 40px 0 0;
+    	border: none;
+	}
 	.ig-icon-blck {
 		float: left;
 		span {
@@ -9,6 +14,12 @@
 			height: 30px;
 			border: 1px solid #333;
 			display: block;
+		}
+		@include breakpoint(mobile){ 
+			float: none;
+			span {
+				margin: 0 auto 7px;
+			}
 		}
 	}
 	.ig-content-blck {
@@ -19,8 +30,13 @@
 
 		}
 		p {
-			color: $medium-gray;
+			color: #777;
 			font-size: 14px;
+			margin-bottom: 0;
+		}
+		@include breakpoint(mobile){ 
+			padding: 0 50px;
+    		margin-bottom: 40px;
 		}
 	}
 }

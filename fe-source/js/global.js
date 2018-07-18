@@ -68,6 +68,11 @@ define('global', ['jquery', 'slick', 'popper', 'bootstrap', 'parsley', 'globalHe
             init: function() {
                 login.init();
                 this.homePageCarousel();
+                this.footerAccordian();
+                if(window.innerWidth < 1000){
+                   this.indigoCommonCarousel($('.benefitscarousel'));
+                   this.indigoCommonCarousel($('.sixEextrascarousel'));    
+                }
             },
             homePageCarousel: function(){
                 var $carouselElement = $(".ig-hp-carousel");
@@ -80,6 +85,187 @@ define('global', ['jquery', 'slick', 'popper', 'bootstrap', 'parsley', 'globalHe
                         adaptiveHeight: true
 
 
+                    });
+                }
+            },
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            footerAccordian: function(){
+                var $showElement = $("#accordion .collapse");
+                if($(window).innerWidth() <= 768) {
+                  $showElement.addClass("hide");
+                } else {
+                   $showElement.addClass("show");
+                }
+            },
+
+             indigoCommonCarousel: function(className){
+                if(className.length){
+                    className.slick({
+                        dots: false,
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        autoplay: false,
+                        adaptiveHeight: false,
+                        infinite: false
                     });
                 }
             }

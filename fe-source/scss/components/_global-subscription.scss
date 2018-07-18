@@ -4,6 +4,12 @@
     background-color: #f2f2f2;
     padding: 48px 0;
     text-align: center;
+    @include breakpoint(mobile){
+	    padding: 20px;
+	}
+	p{
+		color: #666;
+	}
     .input-group {
     	width: 90%;
     	margin: 0 auto 12px;
@@ -20,6 +26,18 @@
 	    	border-color: initial;
 	    	box-shadow: none;
 	    }
+	    @include breakpoint(mobile){
+		    width: 100%;
+    		margin: 0 0 10px 0;
+    		font-size: 16px;
+    	}
+    }
+
+    .input-group-append {
+    	@include breakpoint(mobile) {
+    		width: 100%;
+    		margin: 0;
+    	}
     }
     .input-group>.input-group-append>.btn {
     	border-radius: .25rem;
@@ -27,9 +45,17 @@
     .btn-primary {
 	    width: 118px;
 		font-size: 18px;
+		@include breakpoint(mobile) { 
+			font-size: 16px;
+			padding: 12px;
+			width: 100%;
+		}
     }
     span{
     	font-size: 13px;
    		color: $gray;
+   		@include breakpoint(mobile) { 
+   			font-size: 11px;
+   		}
     }
 }
