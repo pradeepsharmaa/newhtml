@@ -1,8 +1,8 @@
-.ig-wrap-alert{
+.ig-wrap-alert {
 
      padding: 11px;
-     height:143px;
-	.ig-alert-img{
+
+	.ig-alert-img {
 	    width: 50px;
 	    height: 40px;
 	    border: 1px solid #ddd;
@@ -10,49 +10,52 @@
 	    display: inline-block;
 	    float: left;
 	}
-	.ig-alert-name{
-		font-weight:bold;
+	.ig-alert-name {
 		font-size: 18px;
 		float:left;
-		color: #26329f;
-	}
-	.ig-arrow-carousel{
-	border: 1px solid #ddd;
-    height: 40px;
-    width: 50px;
-    display: inline-block;
-    margin-top:2px;
-    @include breakpoint(mobile){ 
-	display:none;
-	}
-	}
-	p{
-	    padding-top: 10px;
+		color: $blue;
 	}
 
-	.slick-dots{
+	p {
+	    padding-top: 10px;
+	    margin-bottom:0;
+	}
+
+	.slick-dots {
 	    bottom: -40px;
 	}
 }
 
 .ig-parent-alert {
-	border:1px solid #e5e5e5;
-@include breakpoint(desktop){ 
-	height:70px;
-	}
-		.slick-prev, .slick-next{
-		width: 20px !important;
-	    height: 20px !important;
-	    box-shadow: none !important;
-	}
-	.slick-next{
-	right:-33px;
-	}
-	.slick-prev{
-    left: inherit;
-	right: -56px;
-	}
 
+	border:1px solid $border-line;
+
+	.slick-prev, .slick-next {
+    box-shadow: none;
+    cursor:pointer;
+}
+
+.slick-prev {
+    left: inherit;
+    right: -48px;
+    z-index: 99;
+}
+.slick-next {
+
+    right: -82px;
+    z-index: 99;
+
+}
+
+.slick-dots li button:before {
+
+	    font-size: 25px;
+
+}
+.slick-dotted.slick-slider{
+
+	margin-bottom:0;
+}
 
 }
 
