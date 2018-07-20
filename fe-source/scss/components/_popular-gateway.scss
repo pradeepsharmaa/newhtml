@@ -1,3 +1,10 @@
+.ig-carosuel-item {
+    a {
+        display: block;
+        text-decoration: none;
+    }
+}
+
 .ig-popular-head{
 	.dropdown{
 	    display: inline-block;
@@ -24,7 +31,6 @@
 	}
 }
 .ig-parent-popular {
-
 	picture {
 		display: block;
 		img {
