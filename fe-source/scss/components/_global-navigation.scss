@@ -4,10 +4,10 @@
 }
 
 .ig-global-nav{
-    z-index:1;
+    z-index:999;
     max-width:1600px;
     margin: 0 auto;
-    padding:22px 0 40px 0;
+    padding:0 0 40px 0;
     @include breakpoint(mobile){
         background-image: none;
         padding:15px 0;
@@ -16,7 +16,8 @@
         display: block;
     }
     .ig-logo{
-        padding-right:10px;
+        padding-right:15px;
+        padding-top: 25px;
         float:left;
         svg{
             path{
@@ -34,29 +35,130 @@
     }
     .ig-search{
         float:left;
-        span{
+        padding-top: 22px;
+        input{
             color:$white;
-            opacity: 0.7;
+            background:transparent;
+            border:0;
             font-size:15px;
+            border-radius:5px;
+            padding:5px 10px;
+            
+            &:active,
+            &:focus,
+            &:hover{
+                outline:0;
+            }
+            &:hover{
+                background:rgba(0,0,0,0.3);  
+            }
+            &:active,
+            &:focus{
+                background:$white;
+                color:$black;
+
+            }
+          &:focus{
+            &::-webkit-input-placeholder { /* Chrome */
+                color: $gray;
+              }
+              &:-ms-input-placeholder { /* IE 10+ */
+                color: $gray;
+              }
+              &::-moz-placeholder { /* Firefox 19+ */
+                color: $gray;
+              }
+              &:-moz-placeholder { /* Firefox 4 - 18 */
+                color: $gray;
+              }
+          }
         }
         @include breakpoint(mobile){
             float:right;
             margin-right:15px;
-            span{
-                color:$black;
-            }
         }
     }
     .ig-nav-links{
+        padding-top: 5px;
+        position: relative;
         ul{
             list-style-type: none;
             li{
+                padding-top: 13px;
                 float:left;
-                padding:0 15px;
+                border-top:2px solid transparent;
+                .nav-inner-items{
+                    display: none;
+                    position: absolute;
+                    left:0;
+                    right:-5px;
+                    padding:20px;
+                    z-index:999999;
+                    .inner-items-container{
+                        background: $white;
+                        border: solid 1px $border-line;
+                        padding:40px 40px 0 40px;
+                        box-shadow: 2px 0 5px 0 rgba(194, 194, 194, 0.5);
+                        h6{
+                            padding-left:25px;
+                        }
+                        ul{
+                            margin:10px 0 40px 0;
+                            li{
+                                padding-left:25px;
+                                line-height:18px;
+                                display:block;
+                                border:0;
+                                float:none;
+                                padding-top:5px;
+                                a{
+                                    color: $dark-gray;
+                                    font-size:14px;
+                                    font-weight:400;
+                                    padding:0;
+                                    &:hover{
+                                        color: $black;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
                 a{
+                    padding:5px 15px;
+                    display: inline-block;
                     color:$white;
                     font-size:15px;
                     font-weight:600;
+                    border-radius:5px;
+                    &:hover{
+                        //background:rgba(0,0,0,0.3);  
+                        text-decoration:none;
+                    }
+                }
+                &:hover{
+                    border-top: 2px solid $white;
+                    .nav-inner-items{
+                        display: block;
+                    }
+                    a{
+                        &.link-has-menu{
+                            position: relative;
+                            &:after{
+                                content: '';
+                                display: inline-block;
+                                position: absolute;
+                                left: calc(50% - 13px);
+                                width: 0;
+                                height: 0;
+                                top: 40px;
+                                z-index: 9999999;
+                                border-left: 13px solid transparent;
+                                border-right: 13px solid transparent;
+                                border-bottom: 13px solid #fff;
+                            }
+                        }
+                    }
                 }
             }
         }

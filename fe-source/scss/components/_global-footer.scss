@@ -29,12 +29,13 @@ ul{
 
 .ig-footer-site-list {
 	li {
-		line-height: 1.57;
+		line-height: 24px;
 		font-size: 14px;
 		a {
 			color: #666;
 			&:hover{
 				text-decoration :none;
+				color:$black;
 			}
 		}
 	}

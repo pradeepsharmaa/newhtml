@@ -77,6 +77,7 @@ a {
     &:active {
         outline: 0;
         text-decoration: underline;
+        color:$black;
         .img-hover-effect {
             -webkit-filter: brightness(.8);
             filter: brightness(.8);
@@ -97,7 +98,7 @@ a {
     transition: color 200ms ease;
 
     &:hover{
-       color: $text-link;
+       color: $black;
     }
 
 }

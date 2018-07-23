@@ -14,25 +14,29 @@ define(['jquery'], function($) {
        },
         homePageCarousel: function(){
             var $carouselElement = $(".ig-hp-carousel");
+            var $hpCarouselItemPos = $('.ig-hp-carousel-item');
+            var $hpCarouselBtn = $('.hp-carousel-btn');
             if($carouselElement.length){
                 $carouselElement.slick({
                     dots: true,
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     autoplay: true,
-                    adaptiveHeight: true
+                    prevArrow: $('.hp-carousel-prev'),
+                    nextArrow: $('.hp-carousel-next'),
                 });
-                this.carouseHeightHandle();
+                this.carouseHeightHandle();     
+                
             }
         },
         carouseHeightHandle: function() {
             var $bookingForm = $('.ig-form-validation');
             window.Parsley.on('field:validated', function() {
                 if($(this.$element).hasClass('hpBookingForm')){
-                    setTimeout(function(){
+                    //setTimeout(function(){
                         var formHeight = $('.hpFlightSearch').height() + 200;
                         $('.ig-hp-carousel, .ig-hp-carousel .slick-list').css('height', formHeight+'px');
-                    }, 1)
+                    //}, 1)
                 }
               });
         }
