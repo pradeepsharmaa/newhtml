@@ -1,0 +1,145 @@
+.ig-parent-searchresult{
+        background-color: #f4f4f8;
+		padding: 35px 30px 40px 30px;
+
+	.ig-wrap-city {
+	 display: inline-block;
+    font-size: 28px;
+    font-weight: bold;
+    padding-right: 11px;
+    padding-top: 0px;
+    float: left;
+
+	.ig-city:after{
+		content: "";
+	    width: 22px;
+	    height: 11px;
+	    border: 1px solid #ddd;
+	    vertical-align: top;
+	    display: inline-block;
+	    margin-top: 5px;
+    	margin-left: 6px;
+	}
+}
+.ig-sdc{
+	 color: #222222;
+	 font-size: 15px;
+}
+.ig-sdf{
+	color: #666;
+    font-size: 15px;
+    padding-left: 10px;
+}
+}
+.nav-tabs{
+	margin:20px 0 10px 0;
+	border-bottom:none;
+li{
+	font-size: 14px;
+    padding-bottom: 12px;
+    width: 16%;
+    text-align: center;
+	a{
+		color: #666;
+		text-decoration: none;
+	}
+
+	
+}
+li.active{
+	border-bottom: 2px solid;
+}
+}
+
+
+.ig-flight-head{
+border:1px solid #ddd;
+.ig-fixed{
+	    padding: 15px 15px;
+	    background: #fff;
+}
+.ig-class-flight{
+	&:after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ddd;
+    display: inline-block;
+    vertical-align: top;
+    margin: 1px 0px 0px 6px;
+	}
+}
+.round-text{
+	    font-size: 14px;
+}
+.discount-text{
+	    display: block;
+    	font-size: 11px;
+    	color:#666;
+}
+.desc-unlimited{
+	font-size: 10px;
+    line-height: 14px;
+}
+}
+.ig-fixed-flight-wrap{
+	position: relative;
+	.inner-container{
+			overflow-x: hidden;
+			overflow-y: scroll;
+			height:270px;
+	.ig-flightcontent{
+		    padding: 15px 15px;
+    		border: 1px solid #ddd;
+    		background: #fff;
+    		margin-bottom: 5px;
+    		.custom-radio{
+    			float: left;
+    			input{
+				    position: static;
+					margin: 0px auto;
+    			}
+    			label{
+				    margin-left: 0;
+					padding-top: 6px;
+    			}
+    		}
+    		.city-connected{
+    			color:#999;
+    			font-size: 12px;
+    		}
+	}
+}
+	.flight-duration{
+		.flight-name{
+		    color: #8c8c8c;
+		    font-size: 14px;
+		    padding-bottom: 2px;
+		    display: block;
+		}
+		.flight-time{
+			color:#222;
+			font-size: 16px;
+			font-weight: 600;
+			display: block;
+		}
+	}
+	.wrap-flightduration{
+		color:#8c8c8c;
+		font-size: 14px;
+	}
+	.custom-scrollbar {
+    position: absolute;
+    z-index: 1;
+    right: 3px;
+    box-sizing: border-box;
+    width: 10px;
+    height: 100%;
+    padding: 6px 0;
+    transition: opacity .4s ease-out;
+    pointer-events: none;
+    opacity: 1;
+    background: rgba(236,236,236,.37);
+    will-change: opacity;
+}
+}

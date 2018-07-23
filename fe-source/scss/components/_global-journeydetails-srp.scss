@@ -1,0 +1,145 @@
+.ig-parent-sr{
+	.ig-common-content{
+		    display: block;
+			font-size: 15px;
+			color: #666666;
+	}
+	.ig-wrap-city{
+		
+		.ig-city-subcontent{
+			display: block;
+			padding-top:3px;
+			font-size: 18px;
+  			font-weight: 600;
+  			color:$black;
+		}
+	}
+	.ig-wrap-dep{
+		
+		.ig-dep-subcontent{
+			display: block;
+			padding-top:3px;
+			font-size: 18px;
+  			font-weight: 600;
+  			color:$black;
+
+  			&:before{
+  				content:"";
+  				width:15px;
+  				height:15px;
+  				border:1px solid #ddd;
+  				vertical-align: top;
+  				float: left;
+  				display: inline-block;
+  				margin: 3px 7px 0 -22px;
+  				cursor: pointer;
+  			}
+  			&:after {
+  			    content:"";
+  				width:15px;
+  				height:15px;
+  				border:1px solid #ddd;
+  				vertical-align: top;
+  				display: inline-block;
+  				margin: 3px 0px 0 10px;
+  				cursor: pointer;
+  			}
+		}
+	}
+
+	.ig-wrap-ret{
+		
+		.ig-ret-subcontent{
+			display: block;
+			padding-top:3px;
+			font-size: 18px;
+  			font-weight: 600;
+  			color:$black;
+
+  			&:before{
+  				content:"";
+  				width:15px;
+  				height:15px;
+  				border:1px solid #ddd;
+  				vertical-align: top;
+  				float: left;
+  				display: inline-block;
+  				margin: 3px 7px 0 -22px;
+  				cursor: pointer;
+  			}
+  			&:after {
+  			    content:"";
+  				width:15px;
+  				height:15px;
+  				border:1px solid #ddd;
+  				vertical-align: top;
+  				display: inline-block;
+  				margin: 3px 0px 0 10px;
+  				cursor: pointer;
+  			}
+		}
+	}
+.ig-wrap-passenger{
+	
+	.ig-pas-subcontent{
+			display: block;
+			padding-top:3px;
+			font-size: 18px;
+  			font-weight: 600;
+  			color:$black;
+	}
+}
+.ig-wrap-modify{
+	    padding-top: 14px;
+	.ig-mod-content{
+		    color: #007aff;
+    		font-size: 15px;
+    		cursor: pointer;
+        float:right;
+	}
+}
+}
+
+.ig-parent-modify {
+	.ig-close-mod{
+  float:right;
+  }
+	.ig-head-trip {
+		.custom-radio {
+			 display: inline-block;
+			 label {
+		    font-size: 15px;
+		    padding-right: 25px;
+		    color:#555;
+		 }
+		}
+
+	}
+	.ig-input-group{
+		padding-bottom: 0;
+	}
+	.field-label {
+    pointer-events: none;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    transform: translateY(15%);
+    z-index: 2;
+    font-size: 13px;
+    line-height: 13px;
+    color: #555;
+    transition: transform 0.3s cubic-bezier(0.215, 0.61, 0.355, 1),opacity 0.3s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.field-float .field-label {
+    opacity: 1;
+    transform: translateY(0);
+    margin-top: -5px;
+}
+.ig-common-space{
+	margin:20px 0 30px 0;
+}
+button{
+	    margin-top: -11px;
+}
+}
+
