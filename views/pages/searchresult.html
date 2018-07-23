@@ -1,0 +1,31 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <!--this include contains title, stylesheet etc-->
+    <% include components/_global-head.html %>
+    <!--//this include contains title, stylesheet etc-->
+</head>
+<body>
+
+    <section>
+        <!--top navigation-->
+        <% include components/_global-navigation.html %>
+        <!--//top navigation-->
+    </section>
+
+   <div class="container" style="border:1px solid #ddd;">
+        <div class="row">
+            <% include components/_global-header-srp.html %>
+        </div>
+
+        <div class="row">
+            <% include components/_global-journeydetails-srp.html %>
+        </div>
+
+        <div class="row">
+            <% include components/_global-srp.html %>
+        </div>
+    </div>
+   
+</body>
+</html>

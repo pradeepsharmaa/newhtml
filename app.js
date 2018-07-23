@@ -48,6 +48,19 @@ app.get('/homepage', function(req, res){
     });
   });
 
+  app.get('/searchresult', function(req, res){
+    res.render('pages/searchresult', {
+      title: "Search Result Page"
+    });
+  });
+
+
+  app.get('/steps', function(req, res){
+    res.render('pages/steps', {
+      title: "Steps"
+    });
+  });
+
 
 app.listen(3000);
 console.log('Express app started on port %d', 3000);
